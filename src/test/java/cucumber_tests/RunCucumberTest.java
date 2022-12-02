@@ -1,4 +1,4 @@
-package project;
+package cucumber_tests;
 
 import org.junit.platform.suite.api.ConfigurationParameter;
 import org.junit.platform.suite.api.IncludeEngines;

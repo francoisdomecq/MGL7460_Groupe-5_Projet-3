@@ -1,4 +1,4 @@
-package project;
+package cucumber_tests;
 
 import io.cucumber.java.en.*;
 
