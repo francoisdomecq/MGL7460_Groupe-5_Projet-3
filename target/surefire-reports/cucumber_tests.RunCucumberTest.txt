@@ -1,4 +1,14 @@
 -------------------------------------------------------------------------------
 Test set: cucumber_tests.RunCucumberTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.162 s - in cucumber_tests.RunCucumberTest
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.181 s <<< FAILURE! - in cucumber_tests.RunCucumberTest
+Examples.Example #1  Time elapsed: 0.057 s  <<< ERROR!
+io.cucumber.java.PendingException: TODO: implement me
+	at cucumber_tests.StepDefinitions.user_login_is_and_user_password_is(StepDefinitions.java:14)
+	at ✽.user identifiants are "admin" and "admin"(classpath:project/connect.feature:5)
+
+Examples.Example #2  Time elapsed: 0.007 s  <<< ERROR!
+io.cucumber.java.PendingException: TODO: implement me
+	at cucumber_tests.StepDefinitions.user_login_is_and_user_password_is(StepDefinitions.java:14)
+	at ✽.user identifiants are "wrong" and "wrong"(classpath:project/connect.feature:5)
+

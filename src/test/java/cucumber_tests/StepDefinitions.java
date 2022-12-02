@@ -2,20 +2,25 @@ package cucumber_tests;
 
 import io.cucumber.java.en.*;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 import org.junit.jupiter.api.Assertions.*;
+
 
 public class StepDefinitions {
 
-    @Given("an example scenario")
-    public void anExampleScenario() {
-    }
+	@Given("^user identifiants are \"([^\\\"]*)\\\" and \"([^\\\"]*)\\\"$")
+	public void user_login_is_and_user_password_is(String login, String password) {
+		 throw new io.cucumber.java.PendingException();	
+	}
 
-    @When("all step definitions are implemented")
-    public void allStepDefinitionsAreImplemented() {
-    }
+	@When("I ask whether user can access to meteo data center")
+	public void can_user_connect() {
+		 throw new io.cucumber.java.PendingException();
+	}
 
-    @Then("the scenario passes")
-    public void theScenarioPasses() {
-    }
-
+	@Then("I should be told {string}")
+	public void i_should_be_told(String expectedAnswer) {
+		 throw new io.cucumber.java.PendingException();
+	}
 }
