@@ -4,4 +4,4 @@ Feature: Connection
    Scenario: Submit a login form
     Given A login and password
     When A password is wrong
-    Then Refuse this acces to the application
+    Then Refuse this access to the application
