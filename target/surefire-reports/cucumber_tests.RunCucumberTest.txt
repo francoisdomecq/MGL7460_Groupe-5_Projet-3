@@ -1,14 +1,24 @@
 -------------------------------------------------------------------------------
 Test set: cucumber_tests.RunCucumberTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.181 s <<< FAILURE! - in cucumber_tests.RunCucumberTest
-Examples.Example #1  Time elapsed: 0.057 s  <<< ERROR!
+Tests run: 4, Failures: 0, Errors: 4, Skipped: 0, Time elapsed: 0.218 s <<< FAILURE! - in cucumber_tests.RunCucumberTest
+Examples.Example #1  Time elapsed: 0.064 s  <<< ERROR!
 io.cucumber.java.PendingException: TODO: implement me
-	at cucumber_tests.StepDefinitions.user_login_is_and_user_password_is(StepDefinitions.java:14)
+	at cucumber_tests.ApiCallStepDefinitions.user_wants_to_get_meteo_data(ApiCallStepDefinitions.java:9)
+	at ✽.user wants to get "Montreal" meteo data(classpath:project/apicall.feature:5)
+
+Examples.Example #2  Time elapsed: 0.007 s  <<< ERROR!
+io.cucumber.java.PendingException: TODO: implement me
+	at cucumber_tests.ApiCallStepDefinitions.user_wants_to_get_meteo_data(ApiCallStepDefinitions.java:9)
+	at ✽.user wants to get "Quebec" meteo data(classpath:project/apicall.feature:5)
+
+Examples.Example #1  Time elapsed: 0.007 s  <<< ERROR!
+io.cucumber.java.PendingException: TODO: implement me
+	at cucumber_tests.ConnectionStepDefinitions.user_login_is_and_user_password_is(ConnectionStepDefinitions.java:9)
 	at ✽.user identifiants are "admin" and "admin"(classpath:project/connect.feature:5)
 
 Examples.Example #2  Time elapsed: 0.007 s  <<< ERROR!
 io.cucumber.java.PendingException: TODO: implement me
-	at cucumber_tests.StepDefinitions.user_login_is_and_user_password_is(StepDefinitions.java:14)
+	at cucumber_tests.ConnectionStepDefinitions.user_login_is_and_user_password_is(ConnectionStepDefinitions.java:9)
 	at ✽.user identifiants are "wrong" and "wrong"(classpath:project/connect.feature:5)
 

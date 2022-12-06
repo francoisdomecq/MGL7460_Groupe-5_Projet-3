@@ -11,4 +11,3 @@ Feature: Is user correct ?
     | admin | admin    | true    |
     | wrong | wrong    | false   |
  
- 
