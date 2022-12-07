@@ -1,22 +1,29 @@
 package cucumber_tests;
 
+import static org.junit.Assert.assertEquals;
+
 import io.cucumber.java.en.*;
 
+import main.User;
+import main.UserDatabase;
 public class ConnectionStepDefinitions {
 
+	private User user;
+	private Boolean result;
+	private final UserDatabase userDatabase = new UserDatabase();
 	@Given("^user identifiants are \"([^\\\"]*)\\\" and \"([^\\\"]*)\\\"$")
 	public void user_login_is_and_user_password_is(String login, String password) {
-		throw new io.cucumber.java.PendingException();
+		this.user = new User(login,password);
 	}
 
 	@When("I ask whether user can access to meteo data center")
 	public void can_user_connect() {
-		throw new io.cucumber.java.PendingException();
+		this.result = this.userDatabase.isUserCorrect(this.user);
 	}
 
 	@Then("I should be told {string}")
 	public void i_should_be_told(String expectedAnswer) {
-		throw new io.cucumber.java.PendingException();
+		assertEquals(this.result.toString(),expectedAnswer);
 	}
 
 	
