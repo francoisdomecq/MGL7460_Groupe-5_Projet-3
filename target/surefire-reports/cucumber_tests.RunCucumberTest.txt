@@ -1,9 +1,14 @@
 -------------------------------------------------------------------------------
 Test set: cucumber_tests.RunCucumberTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.284 s <<< FAILURE! - in cucumber_tests.RunCucumberTest
-Connection.Submit a login form  Time elapsed: 0.061 s  <<< ERROR!
+Tests run: 3, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.215 s <<< FAILURE! - in cucumber_tests.RunCucumberTest
+Connection.Submit a login form  Time elapsed: 0.042 s  <<< ERROR!
 io.cucumber.java.PendingException: TODO: implement me
 	at cucumber_tests.LoginStepDefinitions.a_login_and_password(LoginStepDefinitions.java:11)
 	at ✽.A login and password(classpath:project/login.feature:5)
+
+Connection.Load login page  Time elapsed: 0.006 s  <<< ERROR!
+io.cucumber.java.PendingException: TODO: implement me
+	at cucumber_tests.LoginPageDefinitions.the_login_page(LoginPageDefinitions.java:11)
+	at ✽.The login page(classpath:project/loginpage.feature:5)
 

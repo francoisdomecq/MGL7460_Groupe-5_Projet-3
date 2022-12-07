@@ -1,3 +1,4 @@
-cucumber_tests\RunCucumberTest.class
 cucumber_tests\StepDefinitions.class
+cucumber_tests\RunCucumberTest.class
 cucumber_tests\LoginStepDefinitions.class
+cucumber_tests\LoginPageDefinitions.class
