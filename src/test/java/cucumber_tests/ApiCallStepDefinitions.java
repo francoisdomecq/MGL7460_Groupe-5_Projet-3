@@ -1,23 +1,30 @@
 package cucumber_tests;
 
+import static org.junit.Assert.assertNotNull;
+
 import io.cucumber.java.en.*;
 
+import main.City;
+import main.MeteoDataCenter;
+
 public class ApiCallStepDefinitions {
+
+	private final MeteoDataCenter meteoDataCenter = new MeteoDataCenter();
+	private String cityRequested;
+	private City city;
+
 	@Given("user wants to get {string} meteo data")
 	public void user_wants_to_get_meteo_data(String string) {
-		// Write code here that turns the phrase above into concrete actions
-		throw new io.cucumber.java.PendingException();
+		this.cityRequested = string;
 	}
 
 	@When("he queries the weatherstack api")
 	public void he_queries_the_weatherstack_api() {
-		// Write code here that turns the phrase above into concrete actions
-		throw new io.cucumber.java.PendingException();
+		this.city = this.meteoDataCenter.getMeteoData(cityRequested);
 	}
 
 	@Then("he should receive a non null object")
 	public void he_should_receive_a_non_null_object() {
-		// Write code here that turns the phrase above into concrete actions
-		throw new io.cucumber.java.PendingException();
+		assertNotNull(this.city);
 	}
 }
