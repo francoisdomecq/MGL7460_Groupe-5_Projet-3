@@ -8,4 +8,12 @@ public class User {
         this.login = login;
         this.password = password;
     }
+
+    public String getLogin() {
+        return this.login;
+    }
+
+    public String getPassword() {
+        return this.password;
+    }
 }
