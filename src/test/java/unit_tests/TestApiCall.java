@@ -4,7 +4,6 @@ import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 
-import main.City;
 import main.MeteoDataCenter;
 
 class TestApiCall {
@@ -12,8 +11,18 @@ class TestApiCall {
 	private MeteoDataCenter meteoDataCenter = new MeteoDataCenter();
 
 	@Test
-	void testApiCall() {
+	void testApiCallExistingCity() {
 		assertNotNull(this.meteoDataCenter.getMeteoData("Montreal"));
+	}
+
+	@Test
+	void testApiCallNonExistingCity() {
+		assertNull(this.meteoDataCenter.getMeteoData("non existing city"));
+	}
+
+	@Test
+	void testApiCallEmptyString() {
+		assertNull(this.meteoDataCenter.getMeteoData(""));
 	}
 
 }
