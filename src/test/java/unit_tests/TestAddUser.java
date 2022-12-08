@@ -2,6 +2,7 @@ package unit_tests;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+import org.junit.After;
 import org.junit.Before;
 import org.junit.jupiter.api.Test;
 
@@ -26,6 +27,11 @@ class TestAddUser {
 		assertEquals(this.userToAdd.getLogin() + this.userToAdd.getPassword(),
 				userFound.getLogin() + userFound.getPassword());
 
+	}
+
+	@After
+	void teardown() {
+		this.userDatabase.deleteUser(this.userToAdd.getLogin());
 	}
 
 }
