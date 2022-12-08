@@ -7,5 +7,9 @@ Feature: Connection
     Then Refuse this access to the application
 
    Examples:
-    | login | password |
-    | test1 | test1    |
+      | login | password | answer  |
+      | admin | admin    | true    |
+      | wrong | wrong    | false   |
+      | null  | test1    | false   |
+      | admin |          | false   |
+      |       | admin    | false   |
