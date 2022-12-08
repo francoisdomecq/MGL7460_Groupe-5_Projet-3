@@ -5,8 +5,8 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
 
-import app.User;
-import app.UserDatabase;
+import java.app.User;
+import java.app.UserDatabase;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 

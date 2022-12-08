@@ -1,4 +1,4 @@
-package app;
+package java.app;
 
 public class User {
     private final String login;
