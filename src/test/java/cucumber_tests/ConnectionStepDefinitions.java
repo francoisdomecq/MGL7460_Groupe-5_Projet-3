@@ -1,11 +1,14 @@
 package cucumber_tests;
 
-import static org.junit.Assert.assertEquals;
 
 import io.cucumber.java.en.*;
 
-import main.User;
-import main.UserDatabase;
+import app.User;
+import app.UserDatabase;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+
 public class ConnectionStepDefinitions {
 
 	private User user;

@@ -1,10 +1,10 @@
 package unit_tests;
 
-import static org.junit.jupiter.api.Assertions.*;
-
+import app.MeteoDataCenter;
 import org.junit.jupiter.api.Test;
 
-import main.MeteoDataCenter;
+import static org.junit.jupiter.api.Assertions.assertNotNull;
+import static org.junit.jupiter.api.Assertions.assertNull;
 
 class TestApiCall {
 

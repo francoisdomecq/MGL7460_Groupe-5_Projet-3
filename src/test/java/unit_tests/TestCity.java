@@ -1,10 +1,9 @@
 package unit_tests;
 
-import static org.junit.jupiter.api.Assertions.*;
-
+import app.City;
 import org.junit.jupiter.api.Test;
 
-import main.City;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 class TestCity {
 	
 	private City city = new City("Montreal",20,18,"Sunny");

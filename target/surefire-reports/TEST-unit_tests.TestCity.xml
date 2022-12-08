@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="cucumber_tests.RunCucumberTest" time="1.024" tests="5" errors="3" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="unit_tests.TestCity" time="0.007" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -56,101 +56,8 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="Example #1" classname="Examples" time="0.084">
-    <error message="Cannot invoke &quot;java.sql.Connection.prepareStatement(String)&quot; because &quot;this.connection&quot; is null" type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException: Cannot invoke "java.sql.Connection.prepareStatement(String)" because "this.connection" is null
-	at app.UserDatabase.addUser(UserDatabase.java:92)
-	at cucumber_tests.AddUserStepDefinitions.i_add_an_user_with_the_following_informations_and(AddUserStepDefinitions.java:20)
-	at ✽.I add an user with the following informations "test1" and "test1"(classpath:project/addUser.feature:4)
-]]></error>
-    <system-out><![CDATA[
-Scenario Outline: has my user been added to databse                       &amp#27;[90m# project/addUser.feature:10&amp#27;[0m
-No suitable driver found for jdbc:sqlite:C:\Users\RONIN\Desktop\CESI\Canada\UQAM\cours\Maintenance Logiciel\MGL7460_Groupe-5_Projet-3\db_files\meteoCenter.db
-  &amp#27;[31mGiven &amp#27;[0m&amp#27;[31mI add an user with the following informations &amp#27;[0m&amp#27;[31m&amp#27;[1m"test1"&amp#27;[0m&amp#27;[31m and &amp#27;[0m&amp#27;[31m&amp#27;[1m"test1"&amp#27;[0m &amp#27;[90m# cucumber_tests.AddUserStepDefinitions.i_add_an_user_with_the_following_informations_and(java.lang.String,java.lang.String)&amp#27;[0m
-      &amp#27;[31mjava.lang.NullPointerException: Cannot invoke "java.sql.Connection.prepareStatement(String)" because "this.connection" is null
-	at app.UserDatabase.addUser(UserDatabase.java:92)
-	at cucumber_tests.AddUserStepDefinitions.i_add_an_user_with_the_following_informations_and(AddUserStepDefinitions.java:20)
-	at âœ½.I add an user with the following informations "test1" and "test1"(classpath:project/addUser.feature:4)
-&amp#27;[0m
-  &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mI ask check if the user has been added&amp#27;[0m                             &amp#27;[90m# cucumber_tests.AddUserStepDefinitions.i_ask_check_if_the_user_has_been_added()&amp#27;[0m
-  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI should get him&amp#27;[0m                                                   &amp#27;[90m# cucumber_tests.AddUserStepDefinitions.i_should_get_him()&amp#27;[0m
-]]></system-out>
-  </testcase>
-  <testcase name="Example #1" classname="Examples" time="0.438">
-    <system-out><![CDATA[
-Scenario Outline: user wants to get meteo data of a city &amp#27;[90m# project/apicall.feature:11&amp#27;[0m
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser wants to get &amp#27;[0m&amp#27;[32m&amp#27;[1m"Montreal"&amp#27;[0m&amp#27;[32m meteo data&amp#27;[0m          &amp#27;[90m# cucumber_tests.ApiCallStepDefinitions.user_wants_to_get_meteo_data(java.lang.String)&amp#27;[0m
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mhe queries the weatherstack api&amp#27;[0m                   &amp#27;[90m# cucumber_tests.ApiCallStepDefinitions.he_queries_the_weatherstack_api()&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mhe should receive a non null object&amp#27;[0m               &amp#27;[90m# cucumber_tests.ApiCallStepDefinitions.he_should_receive_a_non_null_object()&amp#27;[0m
-]]></system-out>
-  </testcase>
-  <testcase name="Example #1" classname="Examples" time="0.01">
-    <error message="Cannot invoke &quot;java.sql.Connection.prepareStatement(String)&quot; because &quot;this.connection&quot; is null" type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException: Cannot invoke "java.sql.Connection.prepareStatement(String)" because "this.connection" is null
-	at app.UserDatabase.getUserByLogin(UserDatabase.java:77)
-	at app.UserDatabase.isUserCorrect(UserDatabase.java:61)
-	at cucumber_tests.ConnectionStepDefinitions.can_user_connect(ConnectionStepDefinitions.java:24)
-	at ✽.I ask whether user can access to meteo data center(classpath:project/connect.feature:6)
-]]></error>
-    <system-out><![CDATA[
-Scenario Outline: can user access to meteo data center ?  &amp#27;[90m# project/connect.feature:11&amp#27;[0m
-No suitable driver found for jdbc:sqlite:C:\Users\RONIN\Desktop\CESI\Canada\UQAM\cours\Maintenance Logiciel\MGL7460_Groupe-5_Projet-3\db_files\meteoCenter.db
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser identifiants are "&amp#27;[0m&amp#27;[32m&amp#27;[1madmin&amp#27;[0m&amp#27;[32m" and "&amp#27;[0m&amp#27;[32m&amp#27;[1madmin&amp#27;[0m&amp#27;[32m"&amp#27;[0m         &amp#27;[90m# cucumber_tests.ConnectionStepDefinitions.user_login_is_and_user_password_is(java.lang.String,java.lang.String)&amp#27;[0m
-  &amp#27;[31mWhen &amp#27;[0m&amp#27;[31mI ask whether user can access to meteo data center&amp#27;[0m &amp#27;[90m# cucumber_tests.ConnectionStepDefinitions.can_user_connect()&amp#27;[0m
-      &amp#27;[31mjava.lang.NullPointerException: Cannot invoke "java.sql.Connection.prepareStatement(String)" because "this.connection" is null
-	at app.UserDatabase.getUserByLogin(UserDatabase.java:77)
-	at app.UserDatabase.isUserCorrect(UserDatabase.java:61)
-	at cucumber_tests.ConnectionStepDefinitions.can_user_connect(ConnectionStepDefinitions.java:24)
-	at âœ½.I ask whether user can access to meteo data center(classpath:project/connect.feature:6)
-&amp#27;[0m
-  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI should be told &amp#27;[0m&amp#27;[36m&amp#27;[1m"true"&amp#27;[0m                            &amp#27;[90m# cucumber_tests.ConnectionStepDefinitions.i_should_be_told(java.lang.String)&amp#27;[0m
-]]></system-out>
-  </testcase>
-  <testcase name="Example #2" classname="Examples" time="0.342">
-    <failure message="expected: not &lt;null&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: not <null>
-	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:152)
-	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
-	at org.junit.jupiter.api.AssertNotNull.failNull(AssertNotNull.java:49)
-	at org.junit.jupiter.api.AssertNotNull.assertNotNull(AssertNotNull.java:35)
-	at org.junit.jupiter.api.AssertNotNull.assertNotNull(AssertNotNull.java:30)
-	at org.junit.jupiter.api.Assertions.assertNotNull(Assertions.java:301)
-	at cucumber_tests.ApiCallStepDefinitions.he_should_receive_a_non_null_object(ApiCallStepDefinitions.java:29)
-	at ✽.he should receive a non null object(classpath:project/apicall.feature:7)
-]]></failure>
-    <system-out><![CDATA[
-Scenario Outline: user wants to get meteo data of a city &amp#27;[90m# project/apicall.feature:12&amp#27;[0m
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser wants to get &amp#27;[0m&amp#27;[32m&amp#27;[1m"Quebec"&amp#27;[0m&amp#27;[32m meteo data&amp#27;[0m            &amp#27;[90m# cucumber_tests.ApiCallStepDefinitions.user_wants_to_get_meteo_data(java.lang.String)&amp#27;[0m
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mhe queries the weatherstack api&amp#27;[0m                   &amp#27;[90m# cucumber_tests.ApiCallStepDefinitions.he_queries_the_weatherstack_api()&amp#27;[0m
-  &amp#27;[31mThen &amp#27;[0m&amp#27;[31mhe should receive a non null object&amp#27;[0m               &amp#27;[90m# cucumber_tests.ApiCallStepDefinitions.he_should_receive_a_non_null_object()&amp#27;[0m
-      &amp#27;[31morg.opentest4j.AssertionFailedError: expected: not <null>
-	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:152)
-	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
-	at org.junit.jupiter.api.AssertNotNull.failNull(AssertNotNull.java:49)
-	at org.junit.jupiter.api.AssertNotNull.assertNotNull(AssertNotNull.java:35)
-	at org.junit.jupiter.api.AssertNotNull.assertNotNull(AssertNotNull.java:30)
-	at org.junit.jupiter.api.Assertions.assertNotNull(Assertions.java:301)
-	at cucumber_tests.ApiCallStepDefinitions.he_should_receive_a_non_null_object(ApiCallStepDefinitions.java:29)
-	at âœ½.he should receive a non null object(classpath:project/apicall.feature:7)
-&amp#27;[0m
-]]></system-out>
-  </testcase>
-  <testcase name="Example #2" classname="Examples" time="0.007">
-    <error message="Cannot invoke &quot;java.sql.Connection.prepareStatement(String)&quot; because &quot;this.connection&quot; is null" type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException: Cannot invoke "java.sql.Connection.prepareStatement(String)" because "this.connection" is null
-	at app.UserDatabase.getUserByLogin(UserDatabase.java:77)
-	at app.UserDatabase.isUserCorrect(UserDatabase.java:61)
-	at cucumber_tests.ConnectionStepDefinitions.can_user_connect(ConnectionStepDefinitions.java:24)
-	at ✽.I ask whether user can access to meteo data center(classpath:project/connect.feature:6)
-]]></error>
-    <system-out><![CDATA[
-Scenario Outline: can user access to meteo data center ?  &amp#27;[90m# project/connect.feature:12&amp#27;[0m
-No suitable driver found for jdbc:sqlite:C:\Users\RONIN\Desktop\CESI\Canada\UQAM\cours\Maintenance Logiciel\MGL7460_Groupe-5_Projet-3\db_files\meteoCenter.db
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser identifiants are "&amp#27;[0m&amp#27;[32m&amp#27;[1mwrong&amp#27;[0m&amp#27;[32m" and "&amp#27;[0m&amp#27;[32m&amp#27;[1mwrong&amp#27;[0m&amp#27;[32m"&amp#27;[0m         &amp#27;[90m# cucumber_tests.ConnectionStepDefinitions.user_login_is_and_user_password_is(java.lang.String,java.lang.String)&amp#27;[0m
-  &amp#27;[31mWhen &amp#27;[0m&amp#27;[31mI ask whether user can access to meteo data center&amp#27;[0m &amp#27;[90m# cucumber_tests.ConnectionStepDefinitions.can_user_connect()&amp#27;[0m
-      &amp#27;[31mjava.lang.NullPointerException: Cannot invoke "java.sql.Connection.prepareStatement(String)" because "this.connection" is null
-	at app.UserDatabase.getUserByLogin(UserDatabase.java:77)
-	at app.UserDatabase.isUserCorrect(UserDatabase.java:61)
-	at cucumber_tests.ConnectionStepDefinitions.can_user_connect(ConnectionStepDefinitions.java:24)
-	at âœ½.I ask whether user can access to meteo data center(classpath:project/connect.feature:6)
-&amp#27;[0m
-  &amp#27;[36mThen &amp#27;[0m&amp#27;[36mI should be told &amp#27;[0m&amp#27;[36m&amp#27;[1m"false"&amp#27;[0m                           &amp#27;[90m# cucumber_tests.ConnectionStepDefinitions.i_should_be_told(java.lang.String)&amp#27;[0m
-]]></system-out>
-  </testcase>
+  <testcase name="testGetTemperature" classname="unit_tests.TestCity" time="0.001"/>
+  <testcase name="testGetWeatherDescription" classname="unit_tests.TestCity" time="0.001"/>
+  <testcase name="testGetName" classname="unit_tests.TestCity" time="0"/>
+  <testcase name="testGetFeelsLike" classname="unit_tests.TestCity" time="0"/>
 </testsuite>

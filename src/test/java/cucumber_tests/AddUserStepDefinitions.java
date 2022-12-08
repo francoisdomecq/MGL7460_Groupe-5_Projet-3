@@ -1,13 +1,12 @@
 package cucumber_tests;
 
-import static org.junit.Assert.assertEquals;
+import app.User;
+import app.UserDatabase;
+import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
 
-import java.util.List;
-
-import io.cucumber.java.en.*;
-
-import main.User;
-import main.UserDatabase;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class AddUserStepDefinitions {
 

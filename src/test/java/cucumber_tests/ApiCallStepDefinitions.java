@@ -1,11 +1,12 @@
 package cucumber_tests;
 
-import static org.junit.Assert.assertNotNull;
 
 import io.cucumber.java.en.*;
 
-import main.City;
-import main.MeteoDataCenter;
+import app.City;
+import app.MeteoDataCenter;
+
+import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 public class ApiCallStepDefinitions {
 

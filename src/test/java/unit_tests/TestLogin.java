@@ -1,11 +1,10 @@
 package unit_tests;
 
-import static org.junit.jupiter.api.Assertions.*;
-
+import app.User;
+import app.UserDatabase;
 import org.junit.jupiter.api.Test;
 
-import main.User;
-import main.UserDatabase;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class TestLogin {
 
