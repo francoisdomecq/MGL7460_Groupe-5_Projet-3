@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1dd74143-29e6-4e3e-8e16-cdab31eeb800" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Cities.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/City.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/MeteoDataCenter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/NavigationController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/UIComponent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/UserDatabase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cucumber_tests/ApiCallStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumber_tests/ApiCallStepDefinitions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/unit_tests/TestAddUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/unit_tests/TestAddUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/unit_tests/TestCities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/unit_tests/TestCities.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.cucumber/cucumber.glue.tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/.cucumber/cucumber.stepDefinitions.tmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/MGL7460_Groupe-5_Projet-3/MGL7460_Groupe-5_Projet-3/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/MGL7460_Groupe-5_Projet-3/MGL7460_Groupe-5_Projet-3/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-cucumber_tests.RunCucumberTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-project.RunCucumberTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-unit_tests.JUnit5ExampleTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/cucumber_tests.RunCucumberTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/project.RunCucumberTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/unit_tests.JUnit5ExampleTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/cucumber_tests/AddUserStepDefinitions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/cucumber_tests/ApiCallStepDefinitions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/cucumber_tests/ConnectionStepDefinitions.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/cucumber_tests/RunCucumberTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/unit_tests/addUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/unit_tests/apiCall.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/unit_tests/login.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2IVUiHGA4xysKXmZHogiwzRVPBy" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1dd74143-29e6-4e3e-8e16-cdab31eeb800" name="Changes" comment="" />
+      <created>1670266372449</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1670266372449</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

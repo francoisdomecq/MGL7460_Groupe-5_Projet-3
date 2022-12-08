@@ -1,14 +1,13 @@
 package unit_tests;
 
-import static org.junit.jupiter.api.Assertions.*;
-
+import main.User;
+import main.UserDatabase;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Nested;
 import org.junit.jupiter.api.Test;
 
-import main.UserDatabase;
-import main.User;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 @Nested
 class TestAddUser {
