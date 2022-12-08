@@ -1,9 +1,9 @@
 -------------------------------------------------------------------------------
 Test set: unit_tests.TestAddUser
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 6.737 s <<< FAILURE! - in unit_tests.TestAddUser
-unit_tests.TestAddUser.testAddUser  Time elapsed: 6.718 s  <<< ERROR!
-java.lang.NullPointerException: Cannot invoke "app.User.getLogin()" because "userFound" is null
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 6.702 s <<< FAILURE! - in unit_tests.TestAddUser
+unit_tests.TestAddUser.testAddUser  Time elapsed: 6.688 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "main.java.app.User.getLogin()" because "userFound" is null
 	at unit_tests.TestAddUser.testAddUser(TestAddUser.java:29)
 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
 	at java.base/java.lang.reflect.Method.invoke(Method.java:577)

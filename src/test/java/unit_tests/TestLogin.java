@@ -1,7 +1,7 @@
 package unit_tests;
 
-import app.User;
-import app.UserDatabase;
+import  main.java.app.User;
+import  main.java.app.UserDatabase;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

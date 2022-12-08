@@ -1,6 +1,6 @@
 package unit_tests;
 
-import app.City;
+import  main.java.app.City;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

@@ -1,7 +1,7 @@
 package cucumber_tests;
 
-import app.User;
-import app.UserDatabase;
+import  main.java.app.User;
+import  main.java.app.UserDatabase;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;

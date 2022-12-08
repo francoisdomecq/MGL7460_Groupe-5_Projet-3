@@ -3,8 +3,8 @@ package cucumber_tests;
 
 import io.cucumber.java.en.*;
 
-import app.User;
-import app.UserDatabase;
+import  main.java.app.User;
+import  main.java.app.UserDatabase;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
