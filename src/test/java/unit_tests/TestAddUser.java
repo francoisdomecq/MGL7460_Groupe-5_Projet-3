@@ -2,19 +2,21 @@ package unit_tests;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-import org.junit.After;
-import org.junit.Before;
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Nested;
 import org.junit.jupiter.api.Test;
 
 import main.UserDatabase;
 import main.User;
 
+@Nested
 class TestAddUser {
 
 	private UserDatabase userDatabase;
 	private User userToAdd;
 
-	@Before
+	@BeforeEach
 	void init() {
 		this.userDatabase = new UserDatabase();
 		this.userToAdd = new User("test1", "test1");
@@ -26,10 +28,9 @@ class TestAddUser {
 		User userFound = this.userDatabase.getUserByLogin(this.userToAdd.getLogin());
 		assertEquals(this.userToAdd.getLogin() + this.userToAdd.getPassword(),
 				userFound.getLogin() + userFound.getPassword());
-
 	}
 
-	@After
+	@AfterEach
 	void teardown() {
 		this.userDatabase.deleteUser(this.userToAdd.getLogin());
 	}

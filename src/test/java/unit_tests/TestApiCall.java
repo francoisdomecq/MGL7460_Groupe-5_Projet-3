@@ -17,7 +17,7 @@ class TestApiCall {
 
 	@Test
 	void testApiCallNonExistingCity() {
-		assertNull(this.meteoDataCenter.getMeteoData("non existing city"));
+		assertNull(this.meteoDataCenter.getMeteoData("klfdsf"));
 	}
 
 	@Test
