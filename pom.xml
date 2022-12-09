@@ -87,4 +87,47 @@
             </plugin>
         </plugins>
     </build>
+  <profiles>
+    <profile>
+        <id>check</id>
+        <build>
+            <pluginManagement>
+                <plugins>
+                    <plugin>
+                        <groupId>org.openhab.tools.sat</groupId>
+                        <artifactId>sat-plugin</artifactId>
+                        <version>0.13.0</version>
+                        <executions>
+                            <execution>
+                                <phase>verify</phase>
+                                <goals>
+                                    <goal>checkstyle</goal>
+                                    <goal>pmd</goal>
+                                    <goal>spotbugs</goal>
+                                    <goal>report</goal>
+                                </goals>
+                            </execution>
+                        </executions>
+                    </plugin>
+                </plugins>
+            </pluginManagement>
+        </build>
+    </profile>
+    <profile>
+        <id>check-bundles</id>
+        <activation>
+            <file>
+                <exists>src</exists>
+            </file>
+        </activation>
+        <build>
+            <plugins>
+                <plugin>
+                    <groupId>org.openhab.tools.sat</groupId>
+                    <artifactId>sat-plugin</artifactId>
+                </plugin>
+            </plugins>
+        </build>
+    </profile>
+  </profiles>
 </project>
