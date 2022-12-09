@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: unit_tests.TestAddUser
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.074 s <<< FAILURE! - in unit_tests.TestAddUser
-unit_tests.TestAddUser.testAddUser  Time elapsed: 0.027 s  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.076 s <<< FAILURE! - in unit_tests.TestAddUser
+unit_tests.TestAddUser.testAddUser  Time elapsed: 0.026 s  <<< ERROR!
 java.lang.NullPointerException: Cannot invoke "java.sql.Connection.prepareStatement(String)" because "this.connection" is null
 	at app.UserDatabase.addUser(UserDatabase.java:92)
 	at unit_tests.TestAddUser.init(TestAddUser.java:22)

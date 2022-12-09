@@ -5,62 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce45dea3-478e-4047-929c-a6fbfeb2fcea" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_embed_tomcat_embed_core_9_0_60.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_tomcat_tomcat_annotations_api_9_0_60.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_thoughtworks_qdox_qdox_2_0_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_plugins_maven_compiler_plugin_3_10_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_shared_maven_shared_incremental_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_maven_shared_maven_shared_utils_3_3_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_compiler_api_2_10_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_compiler_javac_2_10_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_compiler_manager_2_10_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_component_annotations_1_5_5.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_java_1_1_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_plexus_plexus_utils_3_4_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_9_2.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/main/Cities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/Cities.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/main/City.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/City.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/main/MeteoDataCenter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/MeteoDataCenter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/main/NavigationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/NavigationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/main/UIComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/UIComponent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/main/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/main/UserDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/UserDatabase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cucumber_tests/AddUserStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumber_tests/AddUserStepDefinitions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cucumber_tests/ApiCallStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumber_tests/ApiCallStepDefinitions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cucumber_tests/ConnectionStepDefinitions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cucumber_tests/ConnectionStepDefinitions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/unit_tests/TestAddUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/unit_tests/TestAddUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/unit_tests/TestApiCall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/unit_tests/TestApiCall.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/unit_tests/TestCities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/unit_tests/TestCities.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/unit_tests/TestCity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/unit_tests/TestCity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/unit_tests/TestLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/unit_tests/TestLogin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/.cucumber/cucumber.glue.tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/.cucumber/cucumber.stepDefinitions.tmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/MGL7460_Groupe-5_Projet-3/MGL7460_Groupe-5_Projet-3/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/maven/MGL7460_Groupe-5_Projet-3/MGL7460_Groupe-5_Projet-3/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-cucumber_tests.RunCucumberTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-project.RunCucumberTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-unit_tests.JUnit5ExampleTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/cucumber_tests.RunCucumberTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/project.RunCucumberTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/unit_tests.JUnit5ExampleTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/cucumber_tests/AddUserStepDefinitions.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/cucumber_tests/ApiCallStepDefinitions.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/cucumber_tests/ConnectionStepDefinitions.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/cucumber_tests/RunCucumberTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/project/addUser.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/project/apicall.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/project/connect.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/unit_tests/addUser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/unit_tests/apiCall.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/unit_tests/login.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,17 +42,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/RONIN/Desktop/CESI/Canada/UQAM/cours/Maintenance Logiciel/MGL7460_Groupe-5_Projet-3/src/main/java/app",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/RONIN/Desktop/CESI/Canada/UQAM/cours/Maintenance Logiciel/MGL7460_Groupe-5_Projet-3/src/main/java/app&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\RONIN\Desktop\CESI\Canada\UQAM\cours\Maintenance Logiciel\MGL7460_Groupe-5_Projet-3\src\main\java\app" />
@@ -115,7 +61,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1dd74143-29e6-4e3e-8e16-cdab31eeb800" name="Changes" comment="" />
+      <changelist id="ce45dea3-478e-4047-929c-a6fbfeb2fcea" name="Changes" comment="" />
       <created>1670266372449</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />

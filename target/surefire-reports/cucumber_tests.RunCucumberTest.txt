@@ -1,14 +1,14 @@
 -------------------------------------------------------------------------------
 Test set: cucumber_tests.RunCucumberTest
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 1, Errors: 3, Skipped: 0, Time elapsed: 1.024 s <<< FAILURE! - in cucumber_tests.RunCucumberTest
-Examples.Example #1  Time elapsed: 0.084 s  <<< ERROR!
+Tests run: 5, Failures: 2, Errors: 3, Skipped: 0, Time elapsed: 0.717 s <<< FAILURE! - in cucumber_tests.RunCucumberTest
+Examples.Example #1  Time elapsed: 0.083 s  <<< ERROR!
 java.lang.NullPointerException: Cannot invoke "java.sql.Connection.prepareStatement(String)" because "this.connection" is null
 	at app.UserDatabase.addUser(UserDatabase.java:92)
 	at cucumber_tests.AddUserStepDefinitions.i_add_an_user_with_the_following_informations_and(AddUserStepDefinitions.java:20)
 	at ✽.I add an user with the following informations "test1" and "test1"(classpath:project/addUser.feature:4)
 
-Examples.Example #2  Time elapsed: 0.342 s  <<< FAILURE!
+Examples.Example #1  Time elapsed: 0.261 s  <<< FAILURE!
 org.opentest4j.AssertionFailedError: expected: not <null>
 	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:152)
 	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
@@ -19,14 +19,25 @@ org.opentest4j.AssertionFailedError: expected: not <null>
 	at cucumber_tests.ApiCallStepDefinitions.he_should_receive_a_non_null_object(ApiCallStepDefinitions.java:29)
 	at ✽.he should receive a non null object(classpath:project/apicall.feature:7)
 
-Examples.Example #1  Time elapsed: 0.01 s  <<< ERROR!
+Examples.Example #2  Time elapsed: 0.171 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: not <null>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:152)
+	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
+	at org.junit.jupiter.api.AssertNotNull.failNull(AssertNotNull.java:49)
+	at org.junit.jupiter.api.AssertNotNull.assertNotNull(AssertNotNull.java:35)
+	at org.junit.jupiter.api.AssertNotNull.assertNotNull(AssertNotNull.java:30)
+	at org.junit.jupiter.api.Assertions.assertNotNull(Assertions.java:301)
+	at cucumber_tests.ApiCallStepDefinitions.he_should_receive_a_non_null_object(ApiCallStepDefinitions.java:29)
+	at ✽.he should receive a non null object(classpath:project/apicall.feature:7)
+
+Examples.Example #1  Time elapsed: 0.008 s  <<< ERROR!
 java.lang.NullPointerException: Cannot invoke "java.sql.Connection.prepareStatement(String)" because "this.connection" is null
 	at app.UserDatabase.getUserByLogin(UserDatabase.java:77)
 	at app.UserDatabase.isUserCorrect(UserDatabase.java:61)
 	at cucumber_tests.ConnectionStepDefinitions.can_user_connect(ConnectionStepDefinitions.java:24)
 	at ✽.I ask whether user can access to meteo data center(classpath:project/connect.feature:6)
 
-Examples.Example #2  Time elapsed: 0.007 s  <<< ERROR!
+Examples.Example #2  Time elapsed: 0.008 s  <<< ERROR!
 java.lang.NullPointerException: Cannot invoke "java.sql.Connection.prepareStatement(String)" because "this.connection" is null
 	at app.UserDatabase.getUserByLogin(UserDatabase.java:77)
 	at app.UserDatabase.isUserCorrect(UserDatabase.java:61)

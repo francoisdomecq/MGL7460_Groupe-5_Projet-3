@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: unit_tests.TestApiCall
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.459 s <<< FAILURE! - in unit_tests.TestApiCall
-unit_tests.TestApiCall.testApiCallExistingCity  Time elapsed: 0.153 s  <<< FAILURE!
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.716 s <<< FAILURE! - in unit_tests.TestApiCall
+unit_tests.TestApiCall.testApiCallExistingCity  Time elapsed: 0.152 s  <<< FAILURE!
 org.opentest4j.AssertionFailedError: expected: not <null>
 	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:152)
 	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
