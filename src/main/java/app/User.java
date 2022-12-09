@@ -1,5 +1,4 @@
-package app;
-
+package main.java.app;
 public class User {
 	private final String login;
 	private final String password;

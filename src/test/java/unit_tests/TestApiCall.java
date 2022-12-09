@@ -1,6 +1,6 @@
 package unit_tests;
 
-import app.MeteoDataCenter;
+import  main.java.app.MeteoDataCenter;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertNotNull;

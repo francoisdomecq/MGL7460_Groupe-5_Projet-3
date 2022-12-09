@@ -1,4 +1,4 @@
-package app;
+package main.java.app;
 
 import java.net.URL;
 import java.util.Scanner;
@@ -7,10 +7,12 @@ import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 
 public class MeteoDataCenter {
+	
+	private String key = "9628e13404e560b2ab5405cc3a866994";
 	public City getMeteoData(String cityName) {
 		City city = null;
 		try {
-			URL url = new URL("http://api.weatherstack.com/current?access_key=3cc18e10889f2277ef4544a3b78fd304&query="
+			URL url = new URL("http://api.weatherstack.com/current?access_key="+this.key+"&query="
 					+ cityName);
 			// URL url = new URL("https://ensc-ensciens.azurewebsites.net/api/Eleveapi");
 			HttpURLConnection conn = (HttpURLConnection) url.openConnection();

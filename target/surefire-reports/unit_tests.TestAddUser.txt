@@ -1,6 +1,7 @@
 -------------------------------------------------------------------------------
 Test set: unit_tests.TestAddUser
 -------------------------------------------------------------------------------
+<<<<<<< HEAD
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.076 s <<< FAILURE! - in unit_tests.TestAddUser
 unit_tests.TestAddUser.testAddUser  Time elapsed: 0.026 s  <<< ERROR!
 java.lang.NullPointerException: Cannot invoke "java.sql.Connection.prepareStatement(String)" because "this.connection" is null
@@ -114,3 +115,6 @@ java.lang.NullPointerException: Cannot invoke "java.sql.Connection.prepareStatem
 		at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:142)
 		... 49 more
 
+=======
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.051 s - in unit_tests.TestAddUser
+>>>>>>> f1997372b98f3b32e3d8db6f3aee3101aa3c0848

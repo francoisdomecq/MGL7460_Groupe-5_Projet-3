@@ -1,4 +1,4 @@
-package app;
+package main.java.app;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -45,6 +45,14 @@ public class UserDatabase {
 			this.statement.close();
 			this.connection.close();
 			System.out.println("Meteo data center closed!");
+		} catch (SQLException e) {
+			System.out.println(e.getMessage());
+		}
+	}
+
+	public void close() {
+		try {
+			this.connection.close();
 		} catch (SQLException e) {
 			System.out.println(e.getMessage());
 		}

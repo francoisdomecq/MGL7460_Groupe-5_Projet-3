@@ -1,4 +1,4 @@
-package app;
+package main.java.app;
 
 public class Cities {
 	private String[] cities;

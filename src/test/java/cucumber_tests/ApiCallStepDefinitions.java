@@ -3,8 +3,8 @@ package cucumber_tests;
 
 import io.cucumber.java.en.*;
 
-import app.City;
-import app.MeteoDataCenter;
+import  main.java.app.City;
+import  main.java.app.MeteoDataCenter;
 
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 

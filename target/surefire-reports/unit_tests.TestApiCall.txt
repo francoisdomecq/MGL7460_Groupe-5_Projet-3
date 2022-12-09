@@ -1,6 +1,7 @@
 -------------------------------------------------------------------------------
 Test set: unit_tests.TestApiCall
 -------------------------------------------------------------------------------
+<<<<<<< HEAD
 Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.716 s <<< FAILURE! - in unit_tests.TestApiCall
 unit_tests.TestApiCall.testApiCallExistingCity  Time elapsed: 0.152 s  <<< FAILURE!
 org.opentest4j.AssertionFailedError: expected: not <null>
@@ -83,3 +84,6 @@ org.opentest4j.AssertionFailedError: expected: not <null>
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
 
+=======
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.435 s - in unit_tests.TestApiCall
+>>>>>>> f1997372b98f3b32e3d8db6f3aee3101aa3c0848
