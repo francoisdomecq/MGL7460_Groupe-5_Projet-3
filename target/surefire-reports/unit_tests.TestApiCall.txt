@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
-Test set: project.RunCucumberTest
+Test set: unit_tests.TestApiCall
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.228 s - in project.RunCucumberTest
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.435 s - in unit_tests.TestApiCall
