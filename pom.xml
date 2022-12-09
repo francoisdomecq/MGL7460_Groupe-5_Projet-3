@@ -69,73 +69,7 @@
 			<artifactId>sqlite-jdbc</artifactId>
 			<version>3.39.3.0</version>
 		</dependency>
-
-<<<<<<< HEAD
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <version>3.10.1</version>
-                <configuration>
-                    <encoding>UTF-8</encoding>
-                    <source>1.8</source>
-                    <target>1.8</target>
-                </configuration>
-            </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-surefire-plugin</artifactId>
-                <version>3.0.0-M7</version>
-            </plugin>
-        </plugins>
-    </build>
-  <profiles>
-    <profile>
-        <id>check</id>
-        <build>
-            <pluginManagement>
-                <plugins>
-                    <plugin>
-                        <groupId>org.openhab.tools.sat</groupId>
-                        <artifactId>sat-plugin</artifactId>
-                        <version>0.13.0</version>
-                        <executions>
-                            <execution>
-                                <phase>verify</phase>
-                                <goals>
-                                    <goal>checkstyle</goal>
-                                    <goal>pmd</goal>
-                                    <goal>spotbugs</goal>
-                                    <goal>report</goal>
-                                </goals>
-                            </execution>
-                        </executions>
-                    </plugin>
-                </plugins>
-            </pluginManagement>
-        </build>
-    </profile>
-    <profile>
-        <id>check-bundles</id>
-        <activation>
-            <file>
-                <exists>src</exists>
-            </file>
-        </activation>
-        <build>
-            <plugins>
-                <plugin>
-                    <groupId>org.openhab.tools.sat</groupId>
-                    <artifactId>sat-plugin</artifactId>
-                </plugin>
-            </plugins>
-        </build>
-    </profile>
-  </profiles>
-=======
 	</dependencies>
-
 	<build>
 		<plugins>
 			<plugin>
@@ -153,7 +87,65 @@
 				<artifactId>maven-surefire-plugin</artifactId>
 				<version>3.0.0-M7</version>
 			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.10.1</version>
+				<configuration>
+					<encoding>UTF-8</encoding>
+					<source>1.8</source>
+					<target>1.8</target>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>3.0.0-M7</version>
+			</plugin>
 		</plugins>
 	</build>
->>>>>>> f1997372b98f3b32e3d8db6f3aee3101aa3c0848
+
+	<profiles>
+		<profile>
+			<id>check</id>
+			<build>
+				<pluginManagement>
+					<plugins>
+						<plugin>
+							<groupId>org.openhab.tools.sat</groupId>
+							<artifactId>sat-plugin</artifactId>
+							<version>0.13.0</version>
+							<executions>
+								<execution>
+									<phase>verify</phase>
+									<goals>
+										<goal>checkstyle</goal>
+										<goal>pmd</goal>
+										<goal>spotbugs</goal>
+										<goal>report</goal>
+									</goals>
+								</execution>
+							</executions>
+						</plugin>
+					</plugins>
+				</pluginManagement>
+			</build>
+		</profile>
+		<profile>
+			<id>check-bundles</id>
+			<activation>
+				<file>
+					<exists>src</exists>
+				</file>
+			</activation>
+			<build>
+				<plugins>
+					<plugin>
+						<groupId>org.openhab.tools.sat</groupId>
+						<artifactId>sat-plugin</artifactId>
+					</plugin>
+				</plugins>
+			</build>
+		</profile>
+	</profiles>
 </project>

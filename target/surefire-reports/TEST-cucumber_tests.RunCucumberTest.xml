@@ -1,84 +1,62 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<<<<<<< HEAD
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="cucumber_tests.RunCucumberTest" time="0.717" tests="5" errors="3" skipped="0" failures="2">
-=======
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="cucumber_tests.RunCucumberTest" time="0.782" tests="5" errors="0" skipped="0" failures="0">
->>>>>>> f1997372b98f3b32e3d8db6f3aee3101aa3c0848
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="cucumber_tests.RunCucumberTest" time="1.491" tests="5" errors="0" skipped="0" failures="0">
   <properties>
-    <property name="java.specification.version" value="18"/>
+    <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\fdome\OneDrive\Documents\ENSC 3A\MGL-7460_Realisation_logiciel\MGL7460_Groupe-5_Projet-3\target\test-classes;C:\Users\fdome\OneDrive\Documents\ENSC 3A\MGL-7460_Realisation_logiciel\MGL7460_Groupe-5_Projet-3\target\classes;C:\Users\fdome\.m2\repository\io\cucumber\cucumber-java\7.9.0\cucumber-java-7.9.0.jar;C:\Users\fdome\.m2\repository\io\cucumber\cucumber-core\7.9.0\cucumber-core-7.9.0.jar;C:\Users\fdome\.m2\repository\io\cucumber\cucumber-gherkin\7.9.0\cucumber-gherkin-7.9.0.jar;C:\Users\fdome\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.9.0\cucumber-gherkin-messages-7.9.0.jar;C:\Users\fdome\.m2\repository\io\cucumber\gherkin\24.1.0\gherkin-24.1.0.jar;C:\Users\fdome\.m2\repository\io\cucumber\messages\19.1.4\messages-19.1.4.jar;C:\Users\fdome\.m2\repository\io\cucumber\tag-expressions\4.1.0\tag-expressions-4.1.0.jar;C:\Users\fdome\.m2\repository\io\cucumber\cucumber-expressions\16.0.0\cucumber-expressions-16.0.0.jar;C:\Users\fdome\.m2\repository\io\cucumber\datatable\7.9.0\datatable-7.9.0.jar;C:\Users\fdome\.m2\repository\io\cucumber\cucumber-plugin\7.9.0\cucumber-plugin-7.9.0.jar;C:\Users\fdome\.m2\repository\io\cucumber\docstring\7.9.0\docstring-7.9.0.jar;C:\Users\fdome\.m2\repository\io\cucumber\html-formatter\20.1.0\html-formatter-20.1.0.jar;C:\Users\fdome\.m2\repository\io\cucumber\ci-environment\9.1.0\ci-environment-9.1.0.jar;C:\Users\fdome\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\fdome\.m2\repository\io\cucumber\cucumber-junit-platform-engine\7.9.0\cucumber-junit-platform-engine-7.9.0.jar;C:\Users\fdome\.m2\repository\org\junit\platform\junit-platform-engine\1.9.1\junit-platform-engine-1.9.1.jar;C:\Users\fdome\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\fdome\.m2\repository\org\junit\platform\junit-platform-commons\1.9.1\junit-platform-commons-1.9.1.jar;C:\Users\fdome\.m2\repository\org\junit\platform\junit-platform-suite\1.9.1\junit-platform-suite-1.9.1.jar;C:\Users\fdome\.m2\repository\org\junit\platform\junit-platform-suite-api\1.9.1\junit-platform-suite-api-1.9.1.jar;C:\Users\fdome\.m2\repository\org\junit\platform\junit-platform-suite-engine\1.9.1\junit-platform-suite-engine-1.9.1.jar;C:\Users\fdome\.m2\repository\org\junit\platform\junit-platform-suite-commons\1.9.1\junit-platform-suite-commons-1.9.1.jar;C:\Users\fdome\.m2\repository\org\junit\platform\junit-platform-launcher\1.9.1\junit-platform-launcher-1.9.1.jar;C:\Users\fdome\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.1\junit-jupiter-5.9.1.jar;C:\Users\fdome\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.1\junit-jupiter-api-5.9.1.jar;C:\Users\fdome\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.1\junit-jupiter-params-5.9.1.jar;C:\Users\fdome\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.1\junit-jupiter-engine-5.9.1.jar;C:\Users\fdome\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\9.0.60\tomcat-embed-core-9.0.60.jar;C:\Users\fdome\.m2\repository\org\apache\tomcat\tomcat-annotations-api\9.0.60\tomcat-annotations-api-9.0.60.jar;C:\Users\fdome\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\fdome\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\fdome\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\fdome\.m2\repository\org\xerial\sqlite-jdbc\3.39.3.0\sqlite-jdbc-3.39.3.0.jar;"/>
+    <property name="java.class.path" value="C:\Users\RONIN\Desktop\CESI\Canada\UQAM\cours\Maintenance Logiciel\MGL7460_Groupe-5_Projet-3\target\test-classes;C:\Users\RONIN\Desktop\CESI\Canada\UQAM\cours\Maintenance Logiciel\MGL7460_Groupe-5_Projet-3\target\classes;C:\Users\RONIN\.m2\repository\io\cucumber\cucumber-java\7.9.0\cucumber-java-7.9.0.jar;C:\Users\RONIN\.m2\repository\io\cucumber\cucumber-core\7.9.0\cucumber-core-7.9.0.jar;C:\Users\RONIN\.m2\repository\io\cucumber\cucumber-gherkin\7.9.0\cucumber-gherkin-7.9.0.jar;C:\Users\RONIN\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.9.0\cucumber-gherkin-messages-7.9.0.jar;C:\Users\RONIN\.m2\repository\io\cucumber\gherkin\24.1.0\gherkin-24.1.0.jar;C:\Users\RONIN\.m2\repository\io\cucumber\messages\19.1.4\messages-19.1.4.jar;C:\Users\RONIN\.m2\repository\io\cucumber\tag-expressions\4.1.0\tag-expressions-4.1.0.jar;C:\Users\RONIN\.m2\repository\io\cucumber\cucumber-expressions\16.0.0\cucumber-expressions-16.0.0.jar;C:\Users\RONIN\.m2\repository\io\cucumber\datatable\7.9.0\datatable-7.9.0.jar;C:\Users\RONIN\.m2\repository\io\cucumber\cucumber-plugin\7.9.0\cucumber-plugin-7.9.0.jar;C:\Users\RONIN\.m2\repository\io\cucumber\docstring\7.9.0\docstring-7.9.0.jar;C:\Users\RONIN\.m2\repository\io\cucumber\html-formatter\20.1.0\html-formatter-20.1.0.jar;C:\Users\RONIN\.m2\repository\io\cucumber\ci-environment\9.1.0\ci-environment-9.1.0.jar;C:\Users\RONIN\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\RONIN\.m2\repository\io\cucumber\cucumber-junit-platform-engine\7.9.0\cucumber-junit-platform-engine-7.9.0.jar;C:\Users\RONIN\.m2\repository\org\junit\platform\junit-platform-engine\1.9.1\junit-platform-engine-1.9.1.jar;C:\Users\RONIN\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\RONIN\.m2\repository\org\junit\platform\junit-platform-commons\1.9.1\junit-platform-commons-1.9.1.jar;C:\Users\RONIN\.m2\repository\org\junit\platform\junit-platform-suite\1.9.1\junit-platform-suite-1.9.1.jar;C:\Users\RONIN\.m2\repository\org\junit\platform\junit-platform-suite-api\1.9.1\junit-platform-suite-api-1.9.1.jar;C:\Users\RONIN\.m2\repository\org\junit\platform\junit-platform-suite-engine\1.9.1\junit-platform-suite-engine-1.9.1.jar;C:\Users\RONIN\.m2\repository\org\junit\platform\junit-platform-suite-commons\1.9.1\junit-platform-suite-commons-1.9.1.jar;C:\Users\RONIN\.m2\repository\org\junit\platform\junit-platform-launcher\1.9.1\junit-platform-launcher-1.9.1.jar;C:\Users\RONIN\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.1\junit-jupiter-5.9.1.jar;C:\Users\RONIN\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.1\junit-jupiter-api-5.9.1.jar;C:\Users\RONIN\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.1\junit-jupiter-params-5.9.1.jar;C:\Users\RONIN\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.1\junit-jupiter-engine-5.9.1.jar;C:\Users\RONIN\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\9.0.60\tomcat-embed-core-9.0.60.jar;C:\Users\RONIN\.m2\repository\org\apache\tomcat\tomcat-annotations-api\9.0.60\tomcat-annotations-api-9.0.60.jar;C:\Users\RONIN\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\RONIN\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\RONIN\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\RONIN\.m2\repository\org\xerial\sqlite-jdbc\3.39.3.0\sqlite-jdbc-3.39.3.0.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
     <property name="java.vendor.url" value="https://java.oracle.com/"/>
     <property name="user.timezone" value="America/New_York"/>
     <property name="os.name" value="Windows 11"/>
-    <property name="java.vm.specification.version" value="18"/>
+    <property name="java.vm.specification.version" value="17"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="FR"/>
-<<<<<<< HEAD
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.5\bin"/>
-    <property name="sun.java.command" value="C:\Users\RONIN\AppData\Local\Temp\surefire6389167352536335200\surefirebooter-20221209125419742_3.jar C:\Users\RONIN\AppData\Local\Temp\surefire6389167352536335200 2022-12-09T12-54-18_962-jvmRun1 surefire-20221209125419742_1tmp surefire_0-20221209125419742_2tmp"/>
-=======
-    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-18.0.2.1\bin"/>
-    <property name="sun.java.command" value="C:\Users\fdome\AppData\Local\Temp\surefire1053088217094743674\surefirebooter-20221208192034321_3.jar C:\Users\fdome\AppData\Local\Temp\surefire1053088217094743674 2022-12-08T19-20-34_040-jvmRun1 surefire-20221208192034321_1tmp surefire_0-20221208192034321_2tmp"/>
->>>>>>> f1997372b98f3b32e3d8db6f3aee3101aa3c0848
+    <property name="sun.java.command" value="C:\Users\RONIN\AppData\Local\Temp\surefire4602402291517025426\surefirebooter-20221209130055957_3.jar C:\Users\RONIN\AppData\Local\Temp\surefire4602402291517025426 2022-12-09T13-00-55_605-jvmRun1 surefire-20221209130055957_1tmp surefire_0-20221209130055957_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="C:\Users\fdome\OneDrive\Documents\ENSC 3A\MGL-7460_Realisation_logiciel\MGL7460_Groupe-5_Projet-3\target\test-classes;C:\Users\fdome\OneDrive\Documents\ENSC 3A\MGL-7460_Realisation_logiciel\MGL7460_Groupe-5_Projet-3\target\classes;C:\Users\fdome\.m2\repository\io\cucumber\cucumber-java\7.9.0\cucumber-java-7.9.0.jar;C:\Users\fdome\.m2\repository\io\cucumber\cucumber-core\7.9.0\cucumber-core-7.9.0.jar;C:\Users\fdome\.m2\repository\io\cucumber\cucumber-gherkin\7.9.0\cucumber-gherkin-7.9.0.jar;C:\Users\fdome\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.9.0\cucumber-gherkin-messages-7.9.0.jar;C:\Users\fdome\.m2\repository\io\cucumber\gherkin\24.1.0\gherkin-24.1.0.jar;C:\Users\fdome\.m2\repository\io\cucumber\messages\19.1.4\messages-19.1.4.jar;C:\Users\fdome\.m2\repository\io\cucumber\tag-expressions\4.1.0\tag-expressions-4.1.0.jar;C:\Users\fdome\.m2\repository\io\cucumber\cucumber-expressions\16.0.0\cucumber-expressions-16.0.0.jar;C:\Users\fdome\.m2\repository\io\cucumber\datatable\7.9.0\datatable-7.9.0.jar;C:\Users\fdome\.m2\repository\io\cucumber\cucumber-plugin\7.9.0\cucumber-plugin-7.9.0.jar;C:\Users\fdome\.m2\repository\io\cucumber\docstring\7.9.0\docstring-7.9.0.jar;C:\Users\fdome\.m2\repository\io\cucumber\html-formatter\20.1.0\html-formatter-20.1.0.jar;C:\Users\fdome\.m2\repository\io\cucumber\ci-environment\9.1.0\ci-environment-9.1.0.jar;C:\Users\fdome\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\fdome\.m2\repository\io\cucumber\cucumber-junit-platform-engine\7.9.0\cucumber-junit-platform-engine-7.9.0.jar;C:\Users\fdome\.m2\repository\org\junit\platform\junit-platform-engine\1.9.1\junit-platform-engine-1.9.1.jar;C:\Users\fdome\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\fdome\.m2\repository\org\junit\platform\junit-platform-commons\1.9.1\junit-platform-commons-1.9.1.jar;C:\Users\fdome\.m2\repository\org\junit\platform\junit-platform-suite\1.9.1\junit-platform-suite-1.9.1.jar;C:\Users\fdome\.m2\repository\org\junit\platform\junit-platform-suite-api\1.9.1\junit-platform-suite-api-1.9.1.jar;C:\Users\fdome\.m2\repository\org\junit\platform\junit-platform-suite-engine\1.9.1\junit-platform-suite-engine-1.9.1.jar;C:\Users\fdome\.m2\repository\org\junit\platform\junit-platform-suite-commons\1.9.1\junit-platform-suite-commons-1.9.1.jar;C:\Users\fdome\.m2\repository\org\junit\platform\junit-platform-launcher\1.9.1\junit-platform-launcher-1.9.1.jar;C:\Users\fdome\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.1\junit-jupiter-5.9.1.jar;C:\Users\fdome\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.1\junit-jupiter-api-5.9.1.jar;C:\Users\fdome\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.1\junit-jupiter-params-5.9.1.jar;C:\Users\fdome\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.1\junit-jupiter-engine-5.9.1.jar;C:\Users\fdome\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\9.0.60\tomcat-embed-core-9.0.60.jar;C:\Users\fdome\.m2\repository\org\apache\tomcat\tomcat-annotations-api\9.0.60\tomcat-annotations-api-9.0.60.jar;C:\Users\fdome\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\fdome\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\fdome\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\fdome\.m2\repository\org\xerial\sqlite-jdbc\3.39.3.0\sqlite-jdbc-3.39.3.0.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Users\RONIN\Desktop\CESI\Canada\UQAM\cours\Maintenance Logiciel\MGL7460_Groupe-5_Projet-3\target\test-classes;C:\Users\RONIN\Desktop\CESI\Canada\UQAM\cours\Maintenance Logiciel\MGL7460_Groupe-5_Projet-3\target\classes;C:\Users\RONIN\.m2\repository\io\cucumber\cucumber-java\7.9.0\cucumber-java-7.9.0.jar;C:\Users\RONIN\.m2\repository\io\cucumber\cucumber-core\7.9.0\cucumber-core-7.9.0.jar;C:\Users\RONIN\.m2\repository\io\cucumber\cucumber-gherkin\7.9.0\cucumber-gherkin-7.9.0.jar;C:\Users\RONIN\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.9.0\cucumber-gherkin-messages-7.9.0.jar;C:\Users\RONIN\.m2\repository\io\cucumber\gherkin\24.1.0\gherkin-24.1.0.jar;C:\Users\RONIN\.m2\repository\io\cucumber\messages\19.1.4\messages-19.1.4.jar;C:\Users\RONIN\.m2\repository\io\cucumber\tag-expressions\4.1.0\tag-expressions-4.1.0.jar;C:\Users\RONIN\.m2\repository\io\cucumber\cucumber-expressions\16.0.0\cucumber-expressions-16.0.0.jar;C:\Users\RONIN\.m2\repository\io\cucumber\datatable\7.9.0\datatable-7.9.0.jar;C:\Users\RONIN\.m2\repository\io\cucumber\cucumber-plugin\7.9.0\cucumber-plugin-7.9.0.jar;C:\Users\RONIN\.m2\repository\io\cucumber\docstring\7.9.0\docstring-7.9.0.jar;C:\Users\RONIN\.m2\repository\io\cucumber\html-formatter\20.1.0\html-formatter-20.1.0.jar;C:\Users\RONIN\.m2\repository\io\cucumber\ci-environment\9.1.0\ci-environment-9.1.0.jar;C:\Users\RONIN\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\RONIN\.m2\repository\io\cucumber\cucumber-junit-platform-engine\7.9.0\cucumber-junit-platform-engine-7.9.0.jar;C:\Users\RONIN\.m2\repository\org\junit\platform\junit-platform-engine\1.9.1\junit-platform-engine-1.9.1.jar;C:\Users\RONIN\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\RONIN\.m2\repository\org\junit\platform\junit-platform-commons\1.9.1\junit-platform-commons-1.9.1.jar;C:\Users\RONIN\.m2\repository\org\junit\platform\junit-platform-suite\1.9.1\junit-platform-suite-1.9.1.jar;C:\Users\RONIN\.m2\repository\org\junit\platform\junit-platform-suite-api\1.9.1\junit-platform-suite-api-1.9.1.jar;C:\Users\RONIN\.m2\repository\org\junit\platform\junit-platform-suite-engine\1.9.1\junit-platform-suite-engine-1.9.1.jar;C:\Users\RONIN\.m2\repository\org\junit\platform\junit-platform-suite-commons\1.9.1\junit-platform-suite-commons-1.9.1.jar;C:\Users\RONIN\.m2\repository\org\junit\platform\junit-platform-launcher\1.9.1\junit-platform-launcher-1.9.1.jar;C:\Users\RONIN\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.1\junit-jupiter-5.9.1.jar;C:\Users\RONIN\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.1\junit-jupiter-api-5.9.1.jar;C:\Users\RONIN\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.1\junit-jupiter-params-5.9.1.jar;C:\Users\RONIN\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.1\junit-jupiter-engine-5.9.1.jar;C:\Users\RONIN\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\9.0.60\tomcat-embed-core-9.0.60.jar;C:\Users\RONIN\.m2\repository\org\apache\tomcat\tomcat-annotations-api\9.0.60\tomcat-annotations-api-9.0.60.jar;C:\Users\RONIN\.m2\repository\com\googlecode\json-simple\json-simple\1.1.1\json-simple-1.1.1.jar;C:\Users\RONIN\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\RONIN\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\RONIN\.m2\repository\org\xerial\sqlite-jdbc\3.39.3.0\sqlite-jdbc-3.39.3.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
-    <property name="user.home" value="C:\Users\fdome"/>
+    <property name="user.home" value="C:\Users\RONIN"/>
     <property name="user.language" value="fr"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.version.date" value="2022-08-18"/>
-    <property name="java.home" value="C:\Program Files\Java\jdk-18.0.2.1"/>
+    <property name="java.version.date" value="2022-10-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17.0.5"/>
     <property name="file.separator" value="\"/>
-    <property name="basedir" value="C:\Users\fdome\OneDrive\Documents\ENSC 3A\MGL-7460_Realisation_logiciel\MGL7460_Groupe-5_Projet-3"/>
+    <property name="basedir" value="C:\Users\RONIN\Desktop\CESI\Canada\UQAM\cours\Maintenance Logiciel\MGL7460_Groupe-5_Projet-3"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-<<<<<<< HEAD
-    <property name="surefire.real.class.path" value="C:\Users\RONIN\AppData\Local\Temp\surefire6389167352536335200\surefirebooter-20221209125419742_3.jar"/>
-=======
-    <property name="surefire.real.class.path" value="C:\Users\fdome\AppData\Local\Temp\surefire1053088217094743674\surefirebooter-20221208192034321_3.jar"/>
->>>>>>> f1997372b98f3b32e3d8db6f3aee3101aa3c0848
+    <property name="surefire.real.class.path" value="C:\Users\RONIN\AppData\Local\Temp\surefire4602402291517025426\surefirebooter-20221209130055957_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
-    <property name="java.runtime.version" value="18.0.2.1+1-1"/>
-    <property name="user.name" value="fdome"/>
+    <property name="java.runtime.version" value="17.0.5+9-LTS-191"/>
+    <property name="user.name" value="RONIN"/>
     <property name="path.separator" value=";"/>
     <property name="os.version" value="10.0"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="file.encoding" value="UTF-8"/>
+    <property name="file.encoding" value="Cp1252"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="localRepository" value="C:\Users\fdome\.m2\repository"/>
+    <property name="localRepository" value="C:\Users\RONIN\.m2\repository"/>
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
-    <property name="java.io.tmpdir" value="C:\Users\fdome\AppData\Local\Temp\"/>
-    <property name="java.version" value="18.0.2.1"/>
-    <property name="user.dir" value="C:\Users\fdome\OneDrive\Documents\ENSC 3A\MGL-7460_Realisation_logiciel\MGL7460_Groupe-5_Projet-3"/>
+    <property name="java.io.tmpdir" value="C:\Users\RONIN\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.5"/>
+    <property name="user.dir" value="C:\Users\RONIN\Desktop\CESI\Canada\UQAM\cours\Maintenance Logiciel\MGL7460_Groupe-5_Projet-3"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="native.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-18.0.2.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Ruby31-x64\bin;C:\msys64\mingw64\bin;C:\WINDOWS\system32;C:\Program Files\Java\jdk-18.0.2.1\bin;C:\Program Files\nodejs;C:\Program Files\Git\bin;C:\Program Files\bin;C:\msys64\usr\bin;C:\Program Files\apache-maven-3.8.6\bin;C:\Program Files\Java\jdk-17.0.1;C:\Program Files\nodejs\;C:\Ruby31-x64\bin;C:\Users\fdome\AppData\Local\Microsoft\WindowsApps;C:\Users\fdome\OneDrive\Documents\Latex\miktex\bin\x64\;C:\Users\fdome\.dotnet\tools;C:\Users\fdome\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\fdome\AppData\Local\Android\Sdk\platform-tools;C:\Users\fdome\AppData\Local\GitHubDesktop\bin;C:\msys64\mingw64\bin;C:\Program Files\Java\jdk-18.0.2.1\bin;C:\Users\fdome\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.4\bin;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17.0.5\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\apache-maven-3.8.6\bin;C:\Python310\Scripts\;C:\Python310\;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Python39\Scripts\;C:\Python39\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Common Files\Autodesk Shared\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files (x86)\dotnet\;C:\wamp64\bin\php\php5.6.40;C:\ProgramData\chocolatey\bin;C:\Program Files\PuTTY\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\ProgramData\ComposerSetup\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Java\jdk1.8.0_241\bin;C:\msys64\mingw64\bin;C:\Ruby31-x64\bin;C:\Users\RONIN\scoop\shims;C:\Users\RONIN\AppData\Roaming\npm;C:\Program Files\Git\bin;C:\Program Files\Git\cmd;C:\wamp\bin\php\php7.4.26;C:\wamp64\php8;&quot;C:\Users\RONIN\AppData\Roaming\Composer\vendor\bin;&quot;;C:\Users\RONIN\AppData\Roaming\npm\node_modules\@angular\cli\bin;C:\Users\RONIN\AppData\Roaming\npm;C:\Program Files\nodejs;C:\Users\RONIN\AppData\Roaming\Composer\vendor\bin;C:\Users\RONIN\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\RONIN\AppData\Local\GitHubDesktop\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.2.3\bin;;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
     <property name="java.vendor" value="Oracle Corporation"/>
-    <property name="java.vm.version" value="18.0.2.1+1-1"/>
+    <property name="java.vm.version" value="17.0.5+9-LTS-191"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
-    <property name="java.class.version" value="62.0"/>
+    <property name="java.class.version" value="61.0"/>
   </properties>
-<<<<<<< HEAD
-  <testcase name="Example #1" classname="Examples" time="0.083">
-    <error message="Cannot invoke &quot;java.sql.Connection.prepareStatement(String)&quot; because &quot;this.connection&quot; is null" type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException: Cannot invoke "java.sql.Connection.prepareStatement(String)" because "this.connection" is null
-	at app.UserDatabase.addUser(UserDatabase.java:92)
-	at cucumber_tests.AddUserStepDefinitions.i_add_an_user_with_the_following_informations_and(AddUserStepDefinitions.java:20)
-	at ✽.I add an user with the following informations "test1" and "test1"(classpath:project/addUser.feature:4)
-]]></error>
-=======
-  <testcase name="Example #1" classname="Examples" time="0.172">
->>>>>>> f1997372b98f3b32e3d8db6f3aee3101aa3c0848
+  <testcase name="Example #1" classname="Examples" time="0.217">
     <system-out><![CDATA[
 Scenario Outline: has my user been added to databse                       &amp#27;[90m# project/addUser.feature:10&amp#27;[0m
 Meteo center opened!
@@ -88,145 +66,16 @@ User added !
 User deleted !
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI should get him&amp#27;[0m                                                   &amp#27;[90m# cucumber_tests.AddUserStepDefinitions.i_should_get_him()&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[déc. 08, 2022 7:20:35 PM io.cucumber.java.MethodScanner safelyGetMethods
-WARNING: Failed to load methods of class 'main.UserDatabase'.
-By default Cucumber scans the entire classpath for step definitions.
-You can restrict this by configuring the glue path.
-
-Examples:
- - @CucumberOptions(glue = "com.example.application")
- - @ConfigurationParameter(key = GLUE_PROPERTY_NAME, value = "com.example.application") - src/test/resources/junit-platform.properties   cucumber.glue=com.example.application
- - src/test/resources/cucumber.properties         cucumber.glue=com.example.application
-
-java.lang.NoClassDefFoundError: User
-	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
-	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3434)
-	at java.base/java.lang.Class.privateGetPublicMethods(Class.java:3459)
-	at java.base/java.lang.Class.getMethods(Class.java:2051)
-	at io.cucumber.java.MethodScanner.safelyGetMethods(MethodScanner.java:39)
-	at io.cucumber.java.MethodScanner.scan(MethodScanner.java:32)
-	at io.cucumber.java.JavaBackend.lambda$loadGlue$2(JavaBackend.java:41)
-	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
-	at java.base/java.util.stream.DistinctOps$1$2.accept(DistinctOps.java:174)
-	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
-	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
-	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:276)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:179)
-	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
-	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
-	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
-	at io.cucumber.java.JavaBackend.loadGlue(JavaBackend.java:41)
-	at io.cucumber.core.runner.Runner.<init>(Runner.java:56)
-	at io.cucumber.core.runtime.SingletonRunnerSupplier.createRunner(SingletonRunnerSupplier.java:44)
-	at io.cucumber.core.runtime.SingletonRunnerSupplier.get(SingletonRunnerSupplier.java:35)
-	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:35)
-	at io.cucumber.core.runtime.CucumberExecutionContext.getRunner(CucumberExecutionContext.java:133)
-	at io.cucumber.core.runtime.CucumberExecutionContext.runBeforeAllHooks(CucumberExecutionContext.java:86)
-	at io.cucumber.junit.platform.engine.CucumberEngineExecutionContext.runBeforeAllHooks(CucumberEngineExecutionContext.java:101)
-	at io.cucumber.junit.platform.engine.CucumberEngineDescriptor.before(CucumberEngineDescriptor.java:43)
-	at io.cucumber.junit.platform.engine.CucumberEngineDescriptor.before(CucumberEngineDescriptor.java:10)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$6(NodeTestTask.java:148)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:141)
-	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$9(NodeTestTask.java:139)
-	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:138)
-	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:95)
-	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:35)
-	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
-	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:54)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:147)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:127)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:90)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:73)
-	at org.junit.platform.suite.engine.SuiteLauncher.execute(SuiteLauncher.java:63)
-	at org.junit.platform.suite.engine.SuiteTestDescriptor.execute(SuiteTestDescriptor.java:150)
-	at org.junit.platform.suite.engine.SuiteTestEngine.lambda$execute$0(SuiteTestEngine.java:73)
-	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)
-	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
-	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
-	at java.base/java.util.Spliterators$IteratorSpliterator.forEachRemaining(Spliterators.java:1845)
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
-	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)
-	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
-	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:596)
-	at org.junit.platform.suite.engine.SuiteTestEngine.execute(SuiteTestEngine.java:73)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:147)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:127)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:90)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:55)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:102)
-	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:54)
-	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:114)
-	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:86)
-	at org.junit.platform.launcher.core.DefaultLauncherSession$DelegatingLauncher.execute(DefaultLauncherSession.java:86)
-	at org.apache.maven.surefire.junitplatform.LazyLauncher.execute(LazyLauncher.java:55)
-	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.execute(JUnitPlatformProvider.java:223)
-	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invokeAllTests(JUnitPlatformProvider.java:175)
-	at org.apache.maven.surefire.junitplatform.JUnitPlatformProvider.invoke(JUnitPlatformProvider.java:139)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
-	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
-Caused by: java.lang.ClassNotFoundException: User
-	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
-	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
-	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
-	... 78 more
-
-]]></system-err>
   </testcase>
-<<<<<<< HEAD
-  <testcase name="Example #1" classname="Examples" time="0.261">
-    <failure message="expected: not &lt;null&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: not <null>
-	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:152)
-	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
-	at org.junit.jupiter.api.AssertNotNull.failNull(AssertNotNull.java:49)
-	at org.junit.jupiter.api.AssertNotNull.assertNotNull(AssertNotNull.java:35)
-	at org.junit.jupiter.api.AssertNotNull.assertNotNull(AssertNotNull.java:30)
-	at org.junit.jupiter.api.Assertions.assertNotNull(Assertions.java:301)
-	at cucumber_tests.ApiCallStepDefinitions.he_should_receive_a_non_null_object(ApiCallStepDefinitions.java:29)
-	at ✽.he should receive a non null object(classpath:project/apicall.feature:7)
-]]></failure>
-=======
-  <testcase name="Example #1" classname="Examples" time="0.297">
->>>>>>> f1997372b98f3b32e3d8db6f3aee3101aa3c0848
+  <testcase name="Example #1" classname="Examples" time="0.635">
     <system-out><![CDATA[
 Scenario Outline: user wants to get meteo data of a city &amp#27;[90m# project/apicall.feature:11&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser wants to get &amp#27;[0m&amp#27;[32m&amp#27;[1m"Montreal"&amp#27;[0m&amp#27;[32m meteo data&amp#27;[0m          &amp#27;[90m# cucumber_tests.ApiCallStepDefinitions.user_wants_to_get_meteo_data(java.lang.String)&amp#27;[0m
   &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mhe queries the weatherstack api&amp#27;[0m                   &amp#27;[90m# cucumber_tests.ApiCallStepDefinitions.he_queries_the_weatherstack_api()&amp#27;[0m
-  &amp#27;[31mThen &amp#27;[0m&amp#27;[31mhe should receive a non null object&amp#27;[0m               &amp#27;[90m# cucumber_tests.ApiCallStepDefinitions.he_should_receive_a_non_null_object()&amp#27;[0m
-      &amp#27;[31morg.opentest4j.AssertionFailedError: expected: not <null>
-	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:152)
-	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
-	at org.junit.jupiter.api.AssertNotNull.failNull(AssertNotNull.java:49)
-	at org.junit.jupiter.api.AssertNotNull.assertNotNull(AssertNotNull.java:35)
-	at org.junit.jupiter.api.AssertNotNull.assertNotNull(AssertNotNull.java:30)
-	at org.junit.jupiter.api.Assertions.assertNotNull(Assertions.java:301)
-	at cucumber_tests.ApiCallStepDefinitions.he_should_receive_a_non_null_object(ApiCallStepDefinitions.java:29)
-	at âœ½.he should receive a non null object(classpath:project/apicall.feature:7)
-&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mhe should receive a non null object&amp#27;[0m               &amp#27;[90m# cucumber_tests.ApiCallStepDefinitions.he_should_receive_a_non_null_object()&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="Example #1" classname="Examples" time="0.008">
-<<<<<<< HEAD
-    <error message="Cannot invoke &quot;java.sql.Connection.prepareStatement(String)&quot; because &quot;this.connection&quot; is null" type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException: Cannot invoke "java.sql.Connection.prepareStatement(String)" because "this.connection" is null
-	at app.UserDatabase.getUserByLogin(UserDatabase.java:77)
-	at app.UserDatabase.isUserCorrect(UserDatabase.java:61)
-	at cucumber_tests.ConnectionStepDefinitions.can_user_connect(ConnectionStepDefinitions.java:24)
-	at ✽.I ask whether user can access to meteo data center(classpath:project/connect.feature:6)
-]]></error>
-=======
->>>>>>> f1997372b98f3b32e3d8db6f3aee3101aa3c0848
+  <testcase name="Example #1" classname="Examples" time="0.011">
     <system-out><![CDATA[
 Scenario Outline: can user access to meteo data center ?  &amp#27;[90m# project/connect.feature:11&amp#27;[0m
 Meteo center opened!
@@ -235,21 +84,7 @@ Meteo center opened!
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI should be told &amp#27;[0m&amp#27;[32m&amp#27;[1m"true"&amp#27;[0m                            &amp#27;[90m# cucumber_tests.ConnectionStepDefinitions.i_should_be_told(java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
-<<<<<<< HEAD
-  <testcase name="Example #2" classname="Examples" time="0.171">
-    <failure message="expected: not &lt;null&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: not <null>
-	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:152)
-	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
-	at org.junit.jupiter.api.AssertNotNull.failNull(AssertNotNull.java:49)
-	at org.junit.jupiter.api.AssertNotNull.assertNotNull(AssertNotNull.java:35)
-	at org.junit.jupiter.api.AssertNotNull.assertNotNull(AssertNotNull.java:30)
-	at org.junit.jupiter.api.Assertions.assertNotNull(Assertions.java:301)
-	at cucumber_tests.ApiCallStepDefinitions.he_should_receive_a_non_null_object(ApiCallStepDefinitions.java:29)
-	at ✽.he should receive a non null object(classpath:project/apicall.feature:7)
-]]></failure>
-=======
-  <testcase name="Example #2" classname="Examples" time="0.157">
->>>>>>> f1997372b98f3b32e3d8db6f3aee3101aa3c0848
+  <testcase name="Example #2" classname="Examples" time="0.457">
     <system-out><![CDATA[
 Scenario Outline: user wants to get meteo data of a city &amp#27;[90m# project/apicall.feature:12&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32muser wants to get &amp#27;[0m&amp#27;[32m&amp#27;[1m"Quebec"&amp#27;[0m&amp#27;[32m meteo data&amp#27;[0m            &amp#27;[90m# cucumber_tests.ApiCallStepDefinitions.user_wants_to_get_meteo_data(java.lang.String)&amp#27;[0m
@@ -258,15 +93,6 @@ Scenario Outline: user wants to get meteo data of a city &amp#27;[90m# project/a
 ]]></system-out>
   </testcase>
   <testcase name="Example #2" classname="Examples" time="0.008">
-<<<<<<< HEAD
-    <error message="Cannot invoke &quot;java.sql.Connection.prepareStatement(String)&quot; because &quot;this.connection&quot; is null" type="java.lang.NullPointerException"><![CDATA[java.lang.NullPointerException: Cannot invoke "java.sql.Connection.prepareStatement(String)" because "this.connection" is null
-	at app.UserDatabase.getUserByLogin(UserDatabase.java:77)
-	at app.UserDatabase.isUserCorrect(UserDatabase.java:61)
-	at cucumber_tests.ConnectionStepDefinitions.can_user_connect(ConnectionStepDefinitions.java:24)
-	at ✽.I ask whether user can access to meteo data center(classpath:project/connect.feature:6)
-]]></error>
-=======
->>>>>>> f1997372b98f3b32e3d8db6f3aee3101aa3c0848
     <system-out><![CDATA[
 Scenario Outline: can user access to meteo data center ?  &amp#27;[90m# project/connect.feature:12&amp#27;[0m
 Meteo center opened!
