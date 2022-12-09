@@ -2,6 +2,7 @@ package cucumber_tests;
 
 import  main.java.app.User;
 import  main.java.app.UserDatabase;
+import io.cucumber.java.After;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -30,6 +31,6 @@ public class AddUserStepDefinitions {
 		this.userDatabase.deleteUser(this.user.getLogin());
 		assertEquals(this.user.getLogin() + this.user.getPassword(),
 				this.userFound.getLogin() + this.userFound.getPassword());
+		this.userDatabase.close();
 	}
-
 }

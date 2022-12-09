@@ -50,6 +50,14 @@ public class UserDatabase {
 		}
 	}
 
+	public void close() {
+		try {
+			this.connection.close();
+		} catch (SQLException e) {
+			System.out.println(e.getMessage());
+		}
+	}
+
 	private void createFirstAdmin() {
 		User firstAdmin = new User("admin", "admin");
 		if (!this.isUserCorrect(firstAdmin)) {
