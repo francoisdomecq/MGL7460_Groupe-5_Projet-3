@@ -8,7 +8,7 @@ import org.json.simple.parser.JSONParser;
 
 public class MeteoDataCenter {
 	
-	private String key = "9628e13404e560b2ab5405cc3a866994";
+	private String key = "37a0487d004e0eca918609fdd58a3c20";
 	public City getMeteoData(String cityName) {
 		City city = null;
 		try {
