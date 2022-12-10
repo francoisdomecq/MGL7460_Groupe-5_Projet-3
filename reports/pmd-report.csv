@@ -1,0 +1,539 @@
+Problem;Package;File;Priority;Line;Description;Rule set;Rule
+1;main;src/main/Cities.java;3;3;CommentRequired: Class comments are required;Documentation;CommentRequired
+2;main;src/main/Cities.java;3;4;AvoidFieldNameMatchingTypeName: It is somewhat confusing to have a field name matching the declaring class name;Error Prone;AvoidFieldNameMatchingTypeName
+3;main;src/main/Cities.java;3;4;CommentRequired: Field comments are required;Documentation;CommentRequired
+4;main;src/main/Cities.java;3;4;"ImmutableField: Private field 'cities' could be made final; it is only initialized in the declaration or constructor.";Design;ImmutableField
+5;main;src/main/Cities.java;3;6;CommentRequired: Public method and constructor comments are required;Documentation;CommentRequired
+6;main;src/main/Cities.java;3;10;CommentRequired: Public method and constructor comments are required;Documentation;CommentRequired
+7;main;src/main/Cities.java;3;10;MethodArgumentCouldBeFinal: Parameter 'index' is not assigned and could be declared final;Code Style;MethodArgumentCouldBeFinal
+8;main;src/main/Cities.java;3;14;CommentRequired: Public method and constructor comments are required;Documentation;CommentRequired
+9;main;src/main/Cities.java;1;14;MethodNamingConventions: The instance method name 'ToString' doesn't match '[a-z][a-zA-Z0-9]*';Code Style;MethodNamingConventions
+10;main;src/main/Cities.java;3;17;LocalVariableCouldBeFinal: Local variable 'index' could be declared final;Code Style;LocalVariableCouldBeFinal
+11;main;src/main/Cities.java;3;18;UseStringBufferForStringAppends: Prefer StringBuilder (non-synchronized) or StringBuffer (synchronized) over += for concatenating strings;Performance;UseStringBufferForStringAppends
+12;main;src/main/City.java;3;3;CommentRequired: Class comments are required;Documentation;CommentRequired
+13;main;src/main/City.java;3;3;DataClass: The class 'City' is suspected to be a Data Class (WOC=14.286%, NOPA=0, NOAM=4, WMC=7);Design;DataClass
+14;main;src/main/City.java;4;3;ShortClassName: Avoid short class names like City;Code Style;ShortClassName
+15;main;src/main/City.java;3;4;CommentRequired: Field comments are required;Documentation;CommentRequired
+16;main;src/main/City.java;3;5;CommentRequired: Field comments are required;Documentation;CommentRequired
+17;main;src/main/City.java;3;6;CommentRequired: Field comments are required;Documentation;CommentRequired
+18;main;src/main/City.java;3;7;CommentRequired: Field comments are required;Documentation;CommentRequired
+19;main;src/main/City.java;3;7;LongVariable: Avoid excessively long variable names like weatherDescription;Code Style;LongVariable
+20;main;src/main/City.java;3;9;CommentRequired: Public method and constructor comments are required;Documentation;CommentRequired
+21;main;src/main/City.java;3;9;UncommentedEmptyConstructor: Document empty constructor;Documentation;UncommentedEmptyConstructor
+22;main;src/main/City.java;3;12;CommentRequired: Public method and constructor comments are required;Documentation;CommentRequired
+23;main;src/main/City.java;3;12;LongVariable: Avoid excessively long variable names like weatherDescription;Code Style;LongVariable
+24;main;src/main/City.java;3;12;MethodArgumentCouldBeFinal: Parameter 'feelsLike' is not assigned and could be declared final;Code Style;MethodArgumentCouldBeFinal
+25;main;src/main/City.java;3;12;MethodArgumentCouldBeFinal: Parameter 'name' is not assigned and could be declared final;Code Style;MethodArgumentCouldBeFinal
+26;main;src/main/City.java;3;12;MethodArgumentCouldBeFinal: Parameter 'temperature' is not assigned and could be declared final;Code Style;MethodArgumentCouldBeFinal
+27;main;src/main/City.java;3;12;MethodArgumentCouldBeFinal: Parameter 'weatherDescription' is not assigned and could be declared final;Code Style;MethodArgumentCouldBeFinal
+28;main;src/main/City.java;3;35;CommentRequired: Public method and constructor comments are required;Documentation;CommentRequired
+29;main;src/main/City.java;1;35;MethodNamingConventions: The instance method name 'ToString' doesn't match '[a-z][a-zA-Z0-9]*';Code Style;MethodNamingConventions
+30;main;src/main/City.java;3;36;LocalVariableCouldBeFinal: Local variable 'string' could be declared final;Code Style;LocalVariableCouldBeFinal
+31;main;src/main/City.java;3;36;"StringToString: Avoid calling toString() on String objects; this is unnecessary.";Performance;StringToString
+32;main;src/main/City.java;3;38;UnnecessaryLocalBeforeReturn: Consider simply returning the value vs storing it in local variable 'string';Code Style;UnnecessaryLocalBeforeReturn
+33;main;src/main/MeteoDataCenter.java;3;9;AtLeastOneConstructor: Each class should declare at least one constructor;Code Style;AtLeastOneConstructor
+34;main;src/main/MeteoDataCenter.java;3;9;CommentRequired: Class comments are required;Documentation;CommentRequired
+35;main;src/main/MeteoDataCenter.java;3;11;CommentRequired: Field comments are required;Documentation;CommentRequired
+36;main;src/main/MeteoDataCenter.java;3;11;"ImmutableField: Private field 'key' could be made final; it is only initialized in the declaration or constructor.";Design;ImmutableField
+37;main;src/main/MeteoDataCenter.java;3;12;CommentRequired: Public method and constructor comments are required;Documentation;CommentRequired
+38;main;src/main/MeteoDataCenter.java;3;12;MethodArgumentCouldBeFinal: Parameter 'cityName' is not assigned and could be declared final;Code Style;MethodArgumentCouldBeFinal
+39;main;src/main/MeteoDataCenter.java;5;13;DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'city' (lines '13'-'44').;Error Prone;DataflowAnomalyAnalysis
+40;main;src/main/MeteoDataCenter.java;5;13;DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'city' (lines '13'-'51').;Error Prone;DataflowAnomalyAnalysis
+41;main;src/main/MeteoDataCenter.java;3;15;LocalVariableCouldBeFinal: Local variable 'url' could be declared final;Code Style;LocalVariableCouldBeFinal
+42;main;src/main/MeteoDataCenter.java;3;18;LocalVariableCouldBeFinal: Local variable 'conn' could be declared final;Code Style;LocalVariableCouldBeFinal
+43;main;src/main/MeteoDataCenter.java;3;19;LawOfDemeter: Potential violation of Law of Demeter (object not created locally);Design;LawOfDemeter
+44;main;src/main/MeteoDataCenter.java;3;20;LawOfDemeter: Potential violation of Law of Demeter (object not created locally);Design;LawOfDemeter
+45;main;src/main/MeteoDataCenter.java;3;22;LawOfDemeter: Potential violation of Law of Demeter (object not created locally);Design;LawOfDemeter
+46;main;src/main/MeteoDataCenter.java;3;22;LocalVariableCouldBeFinal: Local variable 'responseCode' could be declared final;Code Style;LocalVariableCouldBeFinal
+47;main;src/main/MeteoDataCenter.java;3;24;AvoidLiteralsInIfCondition: Avoid using Literals in Conditional Statements;Error Prone;AvoidLiteralsInIfCondition
+48;main;src/main/MeteoDataCenter.java;3;24;"ConfusingTernary: Avoid if (x != y) ..; else ..;";Code Style;ConfusingTernary
+49;main;src/main/MeteoDataCenter.java;1;25;AvoidThrowingRawExceptionTypes: Avoid throwing raw exception types.;Design;AvoidThrowingRawExceptionTypes
+50;main;src/main/MeteoDataCenter.java;3;28;LocalVariableCouldBeFinal: Local variable 'informationString' could be declared final;Code Style;LocalVariableCouldBeFinal
+51;main;src/main/MeteoDataCenter.java;3;29;CloseResource: Ensure that resources like this Scanner object are closed after use;Error Prone;CloseResource
+52;main;src/main/MeteoDataCenter.java;3;29;LocalVariableCouldBeFinal: Local variable 'scanner' could be declared final;Code Style;LocalVariableCouldBeFinal
+53;main;src/main/MeteoDataCenter.java;3;37;LocalVariableCouldBeFinal: Local variable 'parser' could be declared final;Code Style;LocalVariableCouldBeFinal
+54;main;src/main/MeteoDataCenter.java;3;38;LocalVariableCouldBeFinal: Local variable 'object' could be declared final;Code Style;LocalVariableCouldBeFinal
+55;main;src/main/MeteoDataCenter.java;3;39;LawOfDemeter: Potential violation of Law of Demeter (object not created locally);Design;LawOfDemeter
+56;main;src/main/MeteoDataCenter.java;3;40;LawOfDemeter: Potential violation of Law of Demeter (object not created locally);Design;LawOfDemeter
+57;main;src/main/MeteoDataCenter.java;3;40;LocalVariableCouldBeFinal: Local variable 'weather' could be declared final;Code Style;LocalVariableCouldBeFinal
+58;main;src/main/MeteoDataCenter.java;3;41;LawOfDemeter: Potential violation of Law of Demeter (method chain calls);Design;LawOfDemeter
+59;main;src/main/MeteoDataCenter.java;3;41;LawOfDemeter: Potential violation of Law of Demeter (object not created locally);Design;LawOfDemeter
+60;main;src/main/MeteoDataCenter.java;3;41;LocalVariableCouldBeFinal: Local variable 'temperature' could be declared final;Code Style;LocalVariableCouldBeFinal
+61;main;src/main/MeteoDataCenter.java;3;42;LawOfDemeter: Potential violation of Law of Demeter (method chain calls);Design;LawOfDemeter
+62;main;src/main/MeteoDataCenter.java;3;42;LawOfDemeter: Potential violation of Law of Demeter (object not created locally);Design;LawOfDemeter
+63;main;src/main/MeteoDataCenter.java;3;42;LocalVariableCouldBeFinal: Local variable 'feelsLike' could be declared final;Code Style;LocalVariableCouldBeFinal
+64;main;src/main/MeteoDataCenter.java;3;43;LawOfDemeter: Potential violation of Law of Demeter (object not created locally);Design;LawOfDemeter
+65;main;src/main/MeteoDataCenter.java;3;43;LocalVariableCouldBeFinal: Local variable 'weatherDescription' could be declared final;Code Style;LocalVariableCouldBeFinal
+66;main;src/main/MeteoDataCenter.java;3;43;LongVariable: Avoid excessively long variable names like weatherDescription;Code Style;LongVariable
+67;main;src/main/MeteoDataCenter.java;3;47;AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block;Design;AvoidCatchingGenericException
+68;main;src/main/MeteoDataCenter.java;3;48;"AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.";Best Practices;AvoidPrintStackTrace
+69;main;src/main/NavigationController.java;3;3;CommentRequired: Class comments are required;Documentation;CommentRequired
+70;main;src/main/NavigationController.java;3;5;CommentRequired: Public method and constructor comments are required;Documentation;CommentRequired
+71;main;src/main/NavigationController.java;3;5;MethodArgumentCouldBeFinal: Parameter 'args' is not assigned and could be declared final;Code Style;MethodArgumentCouldBeFinal
+72;main;src/main/NavigationController.java;3;6;LocalVariableCouldBeFinal: Local variable 'navigationController' could be declared final;Code Style;LocalVariableCouldBeFinal
+73;main;src/main/NavigationController.java;3;6;LongVariable: Avoid excessively long variable names like navigationController;Code Style;LongVariable
+74;main;src/main/NavigationController.java;3;10;CommentRequired: Field comments are required;Documentation;CommentRequired
+75;main;src/main/NavigationController.java;3;10;"ImmutableField: Private field 'actions' could be made final; it is only initialized in the declaration or constructor.";Design;ImmutableField
+76;main;src/main/NavigationController.java;3;10;UseShortArrayInitializer: Array initialization can be written shorter;Code Style;UseShortArrayInitializer
+77;main;src/main/NavigationController.java;3;11;CommentRequired: Public method and constructor comments are required;Documentation;CommentRequired
+78;main;src/main/NavigationController.java;3;11;MissingOverride: The method 'execute()' is missing an @Override annotation.;Best Practices;MissingOverride
+79;main;src/main/NavigationController.java;3;12;AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes;Best Practices;AccessorMethodGeneration
+80;main;src/main/NavigationController.java;3;15;CommentRequired: Public method and constructor comments are required;Documentation;CommentRequired
+81;main;src/main/NavigationController.java;3;15;MissingOverride: The method 'execute()' is missing an @Override annotation.;Best Practices;MissingOverride
+82;main;src/main/NavigationController.java;3;16;AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes;Best Practices;AccessorMethodGeneration
+83;main;src/main/NavigationController.java;3;19;CommentRequired: Public method and constructor comments are required;Documentation;CommentRequired
+84;main;src/main/NavigationController.java;3;19;MissingOverride: The method 'execute()' is missing an @Override annotation.;Best Practices;MissingOverride
+85;main;src/main/NavigationController.java;3;20;AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes;Best Practices;AccessorMethodGeneration
+86;main;src/main/NavigationController.java;3;23;CommentRequired: Public method and constructor comments are required;Documentation;CommentRequired
+87;main;src/main/NavigationController.java;3;23;MissingOverride: The method 'execute()' is missing an @Override annotation.;Best Practices;MissingOverride
+88;main;src/main/NavigationController.java;3;24;AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes;Best Practices;AccessorMethodGeneration
+89;main;src/main/NavigationController.java;3;27;CommentRequired: Public method and constructor comments are required;Documentation;CommentRequired
+90;main;src/main/NavigationController.java;3;27;MissingOverride: The method 'execute()' is missing an @Override annotation.;Best Practices;MissingOverride
+91;main;src/main/NavigationController.java;3;28;AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes;Best Practices;AccessorMethodGeneration
+92;main;src/main/NavigationController.java;3;32;CommentRequired: Field comments are required;Documentation;CommentRequired
+93;main;src/main/NavigationController.java;3;32;FieldDeclarationsShouldBeAtStartOfClass: Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.;Code Style;FieldDeclarationsShouldBeAtStartOfClass
+94;main;src/main/NavigationController.java;3;32;"ImmutableField: Private field 'userDatabase' could be made final; it is only initialized in the declaration or constructor.";Design;ImmutableField
+95;main;src/main/NavigationController.java;3;33;CommentRequired: Field comments are required;Documentation;CommentRequired
+96;main;src/main/NavigationController.java;3;33;FieldDeclarationsShouldBeAtStartOfClass: Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.;Code Style;FieldDeclarationsShouldBeAtStartOfClass
+97;main;src/main/NavigationController.java;3;34;CommentRequired: Field comments are required;Documentation;CommentRequired
+98;main;src/main/NavigationController.java;3;34;FieldDeclarationsShouldBeAtStartOfClass: Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.;Code Style;FieldDeclarationsShouldBeAtStartOfClass
+99;main;src/main/NavigationController.java;3;34;"ImmutableField: Private field 'uiComponent' could be made final; it is only initialized in the declaration or constructor.";Design;ImmutableField
+100;main;src/main/NavigationController.java;3;35;CommentRequired: Field comments are required;Documentation;CommentRequired
+101;main;src/main/NavigationController.java;3;35;FieldDeclarationsShouldBeAtStartOfClass: Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.;Code Style;FieldDeclarationsShouldBeAtStartOfClass
+102;main;src/main/NavigationController.java;3;35;"ImmutableField: Private field 'meteoDataCenter' could be made final; it is only initialized in the declaration or constructor.";Design;ImmutableField
+103;main;src/main/NavigationController.java;3;37;CommentRequired: Public method and constructor comments are required;Documentation;CommentRequired
+104;main;src/main/NavigationController.java;3;43;CommentRequired: Public method and constructor comments are required;Documentation;CommentRequired
+105;main;src/main/NavigationController.java;3;45;LocalVariableCouldBeFinal: Local variable 'navigationAnswer' could be declared final;Code Style;LocalVariableCouldBeFinal
+106;main;src/main/NavigationController.java;3;51;LocalVariableCouldBeFinal: Local variable 'navigationAnswer' could be declared final;Code Style;LocalVariableCouldBeFinal
+107;main;src/main/NavigationController.java;3;73;LocalVariableCouldBeFinal: Local variable 'cityPicked' could be declared final;Code Style;LocalVariableCouldBeFinal
+108;main;src/main/NavigationController.java;3;74;LocalVariableCouldBeFinal: Local variable 'city' could be declared final;Code Style;LocalVariableCouldBeFinal
+109;main;src/main/NavigationController.java;3;81;AvoidCallingFinalize: Avoid calling finalize() explicitly;Error Prone;AvoidCallingFinalize
+110;main;src/main/NavigationController.java;3;82;DoNotTerminateVM: System.exit() should not be used in J2EE/JEE apps;Error Prone;DoNotTerminateVM
+111;main;src/main/NavigationController.java;3;85;CommentRequired: Class comments are required;Documentation;CommentRequired
+112;main;src/main/NavigationController.java;3;86;CommentRequired: Public method and constructor comments are required;Documentation;CommentRequired
+113;main;src/main/UIComponent.java;3;5;CommentRequired: Class comments are required;Documentation;CommentRequired
+114;main;src/main/UIComponent.java;3;5;TooManyMethods: This class has too many methods, consider refactoring it.;Design;TooManyMethods
+115;main;src/main/UIComponent.java;3;6;CommentRequired: Field comments are required;Documentation;CommentRequired
+116;main;src/main/UIComponent.java;3;6;"ImmutableField: Private field 'scanner' could be made final; it is only initialized in the declaration or constructor.";Design;ImmutableField
+117;main;src/main/UIComponent.java;3;7;CommentRequired: Field comments are required;Documentation;CommentRequired
+118;main;src/main/UIComponent.java;3;7;"ImmutableField: Private field 'cities' could be made final; it is only initialized in the declaration or constructor.";Design;ImmutableField
+119;main;src/main/UIComponent.java;3;9;CommentRequired: Public method and constructor comments are required;Documentation;CommentRequired
+120;main;src/main/UIComponent.java;3;14;CommentRequired: Public method and constructor comments are required;Documentation;CommentRequired
+121;main;src/main/UIComponent.java;2;15;SystemPrintln: System.out.println is used;Best Practices;SystemPrintln
+122;main;src/main/UIComponent.java;3;18;CommentRequired: Public method and constructor comments are required;Documentation;CommentRequired
+123;main;src/main/UIComponent.java;2;19;SystemPrintln: System.out.println is used;Best Practices;SystemPrintln
+124;main;src/main/UIComponent.java;3;22;CommentRequired: Public method and constructor comments are required;Documentation;CommentRequired
+125;main;src/main/UIComponent.java;2;23;SystemPrintln: System.out.println is used;Best Practices;SystemPrintln
+126;main;src/main/UIComponent.java;3;26;CommentRequired: Public method and constructor comments are required;Documentation;CommentRequired
+127;main;src/main/UIComponent.java;2;27;SystemPrintln: System.out.print is used;Best Practices;SystemPrintln
+128;main;src/main/UIComponent.java;3;30;CommentRequired: Public method and constructor comments are required;Documentation;CommentRequired
+129;main;src/main/UIComponent.java;3;30;MethodArgumentCouldBeFinal: Parameter 'city' is not assigned and could be declared final;Code Style;MethodArgumentCouldBeFinal
+130;main;src/main/UIComponent.java;2;32;SystemPrintln: System.out.println is used;Best Practices;SystemPrintln
+131;main;src/main/UIComponent.java;3;37;CommentRequired: Public method and constructor comments are required;Documentation;CommentRequired
+132;main;src/main/UIComponent.java;2;38;SystemPrintln: System.out.println is used;Best Practices;SystemPrintln
+133;main;src/main/UIComponent.java;3;41;CommentRequired: Public method and constructor comments are required;Documentation;CommentRequired
+134;main;src/main/UIComponent.java;2;42;SystemPrintln: System.out.println is used;Best Practices;SystemPrintln
+135;main;src/main/UIComponent.java;3;46;CommentRequired: Public method and constructor comments are required;Documentation;CommentRequired
+136;main;src/main/UIComponent.java;3;46;MethodArgumentCouldBeFinal: Parameter 'maxAnswer' is not assigned and could be declared final;Code Style;MethodArgumentCouldBeFinal
+137;main;src/main/UIComponent.java;3;46;MethodArgumentCouldBeFinal: Parameter 'minAnswer' is not assigned and could be declared final;Code Style;MethodArgumentCouldBeFinal
+138;main;src/main/UIComponent.java;2;48;SystemPrintln: System.out.print is used;Best Practices;SystemPrintln
+139;main;src/main/UIComponent.java;3;49;LocalVariableCouldBeFinal: Local variable 'action' could be declared final;Code Style;LocalVariableCouldBeFinal
+140;main;src/main/UIComponent.java;3;53;OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method;Code Style;OnlyOneReturn
+141;main;src/main/UIComponent.java;2;55;SystemPrintln: System.out.println is used;Best Practices;SystemPrintln
+142;main;src/main/UIComponent.java;3;60;CommentRequired: Public method and constructor comments are required;Documentation;CommentRequired
+143;main;src/main/UIComponent.java;3;60;MethodArgumentCouldBeFinal: Parameter 'textToPrint' is not assigned and could be declared final;Code Style;MethodArgumentCouldBeFinal
+144;main;src/main/UIComponent.java;2;61;SystemPrintln: System.out.print is used;Best Practices;SystemPrintln
+145;main;src/main/UIComponent.java;3;65;CommentRequired: Public method and constructor comments are required;Documentation;CommentRequired
+146;main;src/main/UIComponent.java;2;66;SystemPrintln: System.out.print is used;Best Practices;SystemPrintln
+147;main;src/main/UIComponent.java;3;67;LocalVariableCouldBeFinal: Local variable 'login' could be declared final;Code Style;LocalVariableCouldBeFinal
+148;main;src/main/UIComponent.java;2;68;SystemPrintln: System.out.print is used;Best Practices;SystemPrintln
+149;main;src/main/UIComponent.java;3;69;LocalVariableCouldBeFinal: Local variable 'password' could be declared final;Code Style;LocalVariableCouldBeFinal
+150;main;src/main/UIComponent.java;3;73;CommentRequired: Public method and constructor comments are required;Documentation;CommentRequired
+151;main;src/main/UIComponent.java;2;74;SystemPrintln: System.out.print is used;Best Practices;SystemPrintln
+152;main;src/main/UIComponent.java;3;75;LocalVariableCouldBeFinal: Local variable 'login' could be declared final;Code Style;LocalVariableCouldBeFinal
+153;main;src/main/UIComponent.java;2;76;SystemPrintln: System.out.print is used;Best Practices;SystemPrintln
+154;main;src/main/UIComponent.java;3;77;LocalVariableCouldBeFinal: Local variable 'password' could be declared final;Code Style;LocalVariableCouldBeFinal
+155;main;src/main/UIComponent.java;3;81;CommentRequired: Public method and constructor comments are required;Documentation;CommentRequired
+156;main;src/main/UIComponent.java;3;81;MethodArgumentCouldBeFinal: Parameter 'maxAnswer' is not assigned and could be declared final;Code Style;MethodArgumentCouldBeFinal
+157;main;src/main/UIComponent.java;3;81;MethodArgumentCouldBeFinal: Parameter 'minAnswer' is not assigned and could be declared final;Code Style;MethodArgumentCouldBeFinal
+158;main;src/main/UIComponent.java;2;82;SystemPrintln: System.out.println is used;Best Practices;SystemPrintln
+159;main;src/main/UIComponent.java;3;84;LocalVariableCouldBeFinal: Local variable 'action' could be declared final;Code Style;LocalVariableCouldBeFinal
+160;main;src/main/UIComponent.java;3;88;OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method;Code Style;OnlyOneReturn
+161;main;src/main/UIComponent.java;2;90;SystemPrintln: System.out.println is used;Best Practices;SystemPrintln
+162;main;src/main/UIComponent.java;3;95;AvoidUncheckedExceptionsInSignatures: A method or constructor should not explicitly declare unchecked exceptions in its 'throws' clause;Design;AvoidUncheckedExceptionsInSignatures
+163;main;src/main/UIComponent.java;3;95;MethodArgumentCouldBeFinal: Parameter 'input' is not assigned and could be declared final;Code Style;MethodArgumentCouldBeFinal
+164;main;src/main/User.java;3;3;CommentRequired: Class comments are required;Documentation;CommentRequired
+165;main;src/main/User.java;4;3;ShortClassName: Avoid short class names like User;Code Style;ShortClassName
+166;main;src/main/User.java;3;4;CommentRequired: Field comments are required;Documentation;CommentRequired
+167;main;src/main/User.java;3;5;CommentRequired: Field comments are required;Documentation;CommentRequired
+168;main;src/main/User.java;3;7;CommentRequired: Public method and constructor comments are required;Documentation;CommentRequired
+169;main;src/main/User.java;3;7;MethodArgumentCouldBeFinal: Parameter 'login' is not assigned and could be declared final;Code Style;MethodArgumentCouldBeFinal
+170;main;src/main/User.java;3;7;MethodArgumentCouldBeFinal: Parameter 'password' is not assigned and could be declared final;Code Style;MethodArgumentCouldBeFinal
+171;main;src/main/UserDatabase.java;3;10;CommentRequired: Class comments are required;Documentation;CommentRequired
+172;main;src/main/UserDatabase.java;3;11;CommentRequired: Field comments are required;Documentation;CommentRequired
+173;main;src/main/UserDatabase.java;3;11;LongVariable: Avoid excessively long variable names like DATABASE_DIRECTORY;Code Style;LongVariable
+174;main;src/main/UserDatabase.java;3;12;CommentRequired: Field comments are required;Documentation;CommentRequired
+175;main;src/main/UserDatabase.java;3;13;CommentRequired: Field comments are required;Documentation;CommentRequired
+176;main;src/main/UserDatabase.java;3;15;CommentRequired: Field comments are required;Documentation;CommentRequired
+177;main;src/main/UserDatabase.java;3;16;CommentRequired: Field comments are required;Documentation;CommentRequired
+178;main;src/main/UserDatabase.java;3;17;CommentRequired: Field comments are required;Documentation;CommentRequired
+179;main;src/main/UserDatabase.java;3;19;CommentRequired: Public method and constructor comments are required;Documentation;CommentRequired
+180;main;src/main/UserDatabase.java;1;24;ConstructorCallsOverridableMethod: Overridable method 'isUserCorrect' called during object construction (call stack: [createFirstAdmin, isUserCorrect]);Error Prone;ConstructorCallsOverridableMethod
+181;main;src/main/UserDatabase.java;2;25;SystemPrintln: System.out.println is used;Best Practices;SystemPrintln
+182;main;src/main/UserDatabase.java;2;27;SystemPrintln: System.out.println is used;Best Practices;SystemPrintln
+183;main;src/main/UserDatabase.java;3;32;LocalVariableCouldBeFinal: Local variable 'sql' could be declared final;Code Style;LocalVariableCouldBeFinal
+184;main;src/main/UserDatabase.java;2;37;SystemPrintln: System.out.println is used;Best Practices;SystemPrintln
+185;main;src/main/UserDatabase.java;3;43;FinalizeDoesNotCallSuperFinalize: Last statement in finalize method should be a call to super.finalize();Error Prone;FinalizeDoesNotCallSuperFinalize
+186;main;src/main/UserDatabase.java;2;47;SystemPrintln: System.out.println is used;Best Practices;SystemPrintln
+187;main;src/main/UserDatabase.java;2;49;SystemPrintln: System.out.println is used;Best Practices;SystemPrintln
+188;main;src/main/UserDatabase.java;3;53;CommentRequired: Public method and constructor comments are required;Documentation;CommentRequired
+189;main;src/main/UserDatabase.java;2;57;SystemPrintln: System.out.println is used;Best Practices;SystemPrintln
+190;main;src/main/UserDatabase.java;3;62;LocalVariableCouldBeFinal: Local variable 'firstAdmin' could be declared final;Code Style;LocalVariableCouldBeFinal
+191;main;src/main/UserDatabase.java;3;68;CommentRequired: Public method and constructor comments are required;Documentation;CommentRequired
+192;main;src/main/UserDatabase.java;3;68;MethodArgumentCouldBeFinal: Parameter 'toVerify' is not assigned and could be declared final;Code Style;MethodArgumentCouldBeFinal
+193;main;src/main/UserDatabase.java;3;69;LocalVariableCouldBeFinal: Local variable 'findedUser' could be declared final;Code Style;LocalVariableCouldBeFinal
+194;main;src/main/UserDatabase.java;3;70;LocalVariableCouldBeFinal: Local variable 'isUserFound' could be declared final;Code Style;LocalVariableCouldBeFinal
+195;main;src/main/UserDatabase.java;5;71;DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'isLoginCorrect' (lines '71'-'74').;Error Prone;DataflowAnomalyAnalysis
+196;main;src/main/UserDatabase.java;5;72;DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'isPasswordCorrect' (lines '72'-'75').;Error Prone;DataflowAnomalyAnalysis
+197;main;src/main/UserDatabase.java;3;74;LawOfDemeter: Potential violation of Law of Demeter (method chain calls);Design;LawOfDemeter
+198;main;src/main/UserDatabase.java;3;75;LawOfDemeter: Potential violation of Law of Demeter (method chain calls);Design;LawOfDemeter
+199;main;src/main/UserDatabase.java;3;77;ControlStatementBraces: This statement should have braces;Code Style;ControlStatementBraces
+200;main;src/main/UserDatabase.java;3;77;IfElseStmtsMustUseBraces: Avoid using if...else statements without curly braces;Code Style;IfElseStmtsMustUseBraces
+201;main;src/main/UserDatabase.java;2;77;SystemPrintln: System.out.println is used;Best Practices;SystemPrintln
+202;main;src/main/UserDatabase.java;3;81;CommentRequired: Public method and constructor comments are required;Documentation;CommentRequired
+203;main;src/main/UserDatabase.java;3;81;MethodArgumentCouldBeFinal: Parameter 'loginToFind' is not assigned and could be declared final;Code Style;MethodArgumentCouldBeFinal
+204;main;src/main/UserDatabase.java;5;82;DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'toReturn' (lines '82'-'89').;Error Prone;DataflowAnomalyAnalysis
+205;main;src/main/UserDatabase.java;3;83;LocalVariableCouldBeFinal: Local variable 'sql' could be declared final;Code Style;LocalVariableCouldBeFinal
+206;main;src/main/UserDatabase.java;3;87;CloseResource: Ensure that resources like this ResultSet object are closed after use;Error Prone;CloseResource
+207;main;src/main/UserDatabase.java;3;87;LocalVariableCouldBeFinal: Local variable 'result' could be declared final;Code Style;LocalVariableCouldBeFinal
+208;main;src/main/UserDatabase.java;3;88;LawOfDemeter: Potential violation of Law of Demeter (object not created locally);Design;LawOfDemeter
+209;main;src/main/UserDatabase.java;3;89;LawOfDemeter: Potential violation of Law of Demeter (object not created locally);Design;LawOfDemeter
+210;main;src/main/UserDatabase.java;3;89;LawOfDemeter: Potential violation of Law of Demeter (object not created locally);Design;LawOfDemeter
+211;main;src/main/UserDatabase.java;2;92;SystemPrintln: System.out.println is used;Best Practices;SystemPrintln
+212;main;src/main/UserDatabase.java;3;97;CommentRequired: Public method and constructor comments are required;Documentation;CommentRequired
+213;main;src/main/UserDatabase.java;3;97;MethodArgumentCouldBeFinal: Parameter 'userToAdd' is not assigned and could be declared final;Code Style;MethodArgumentCouldBeFinal
+214;main;src/main/UserDatabase.java;3;98;LocalVariableCouldBeFinal: Local variable 'sql' could be declared final;Code Style;LocalVariableCouldBeFinal
+215;main;src/main/UserDatabase.java;3;103;LocalVariableCouldBeFinal: Local variable 'rowsAffected' could be declared final;Code Style;LocalVariableCouldBeFinal
+216;main;src/main/UserDatabase.java;2;105;SystemPrintln: System.out.println is used;Best Practices;SystemPrintln
+217;main;src/main/UserDatabase.java;2;108;SystemPrintln: System.out.println is used;Best Practices;SystemPrintln
+218;main;src/main/UserDatabase.java;3;112;CommentRequired: Public method and constructor comments are required;Documentation;CommentRequired
+219;main;src/main/UserDatabase.java;3;112;MethodArgumentCouldBeFinal: Parameter 'login' is not assigned and could be declared final;Code Style;MethodArgumentCouldBeFinal
+220;main;src/main/UserDatabase.java;3;113;LocalVariableCouldBeFinal: Local variable 'sql' could be declared final;Code Style;LocalVariableCouldBeFinal
+221;main;src/main/UserDatabase.java;3;117;LocalVariableCouldBeFinal: Local variable 'rowsAffected' could be declared final;Code Style;LocalVariableCouldBeFinal
+222;main;src/main/UserDatabase.java;3;118;"ConfusingTernary: Avoid if (x != y) ..; else ..;";Code Style;ConfusingTernary
+223;main;src/main/UserDatabase.java;2;119;SystemPrintln: System.out.println is used;Best Practices;SystemPrintln
+224;main;src/main/UserDatabase.java;2;121;SystemPrintln: System.out.println is used;Best Practices;SystemPrintln
+225;main;src/main/UserDatabase.java;2;124;SystemPrintln: System.out.println is used;Best Practices;SystemPrintln
+226;main.java.app;src/main/java/app/Cities.java;3;3;CommentRequired: Class comments are required;Documentation;CommentRequired
+227;main.java.app;src/main/java/app/Cities.java;3;4;AvoidFieldNameMatchingTypeName: It is somewhat confusing to have a field name matching the declaring class name;Error Prone;AvoidFieldNameMatchingTypeName
+228;main.java.app;src/main/java/app/Cities.java;3;4;CommentRequired: Field comments are required;Documentation;CommentRequired
+229;main.java.app;src/main/java/app/Cities.java;3;4;"ImmutableField: Private field 'cities' could be made final; it is only initialized in the declaration or constructor.";Design;ImmutableField
+230;main.java.app;src/main/java/app/Cities.java;3;6;CommentRequired: Public method and constructor comments are required;Documentation;CommentRequired
+231;main.java.app;src/main/java/app/Cities.java;3;10;CommentRequired: Public method and constructor comments are required;Documentation;CommentRequired
+232;main.java.app;src/main/java/app/Cities.java;3;10;MethodArgumentCouldBeFinal: Parameter 'index' is not assigned and could be declared final;Code Style;MethodArgumentCouldBeFinal
+233;main.java.app;src/main/java/app/Cities.java;3;14;CommentRequired: Public method and constructor comments are required;Documentation;CommentRequired
+234;main.java.app;src/main/java/app/Cities.java;1;14;MethodNamingConventions: The instance method name 'ToString' doesn't match '[a-z][a-zA-Z0-9]*';Code Style;MethodNamingConventions
+235;main.java.app;src/main/java/app/Cities.java;3;17;LocalVariableCouldBeFinal: Local variable 'index' could be declared final;Code Style;LocalVariableCouldBeFinal
+236;main.java.app;src/main/java/app/Cities.java;3;18;UseStringBufferForStringAppends: Prefer StringBuilder (non-synchronized) or StringBuffer (synchronized) over += for concatenating strings;Performance;UseStringBufferForStringAppends
+237;main.java.app;src/main/java/app/City.java;3;3;CommentRequired: Class comments are required;Documentation;CommentRequired
+238;main.java.app;src/main/java/app/City.java;3;3;DataClass: The class 'City' is suspected to be a Data Class (WOC=14.286%, NOPA=0, NOAM=4, WMC=7);Design;DataClass
+239;main.java.app;src/main/java/app/City.java;4;3;ShortClassName: Avoid short class names like City;Code Style;ShortClassName
+240;main.java.app;src/main/java/app/City.java;3;4;CommentRequired: Field comments are required;Documentation;CommentRequired
+241;main.java.app;src/main/java/app/City.java;3;5;CommentRequired: Field comments are required;Documentation;CommentRequired
+242;main.java.app;src/main/java/app/City.java;3;6;CommentRequired: Field comments are required;Documentation;CommentRequired
+243;main.java.app;src/main/java/app/City.java;3;7;CommentRequired: Field comments are required;Documentation;CommentRequired
+244;main.java.app;src/main/java/app/City.java;3;7;LongVariable: Avoid excessively long variable names like weatherDescription;Code Style;LongVariable
+245;main.java.app;src/main/java/app/City.java;3;9;CommentRequired: Public method and constructor comments are required;Documentation;CommentRequired
+246;main.java.app;src/main/java/app/City.java;3;9;UncommentedEmptyConstructor: Document empty constructor;Documentation;UncommentedEmptyConstructor
+247;main.java.app;src/main/java/app/City.java;3;12;CommentRequired: Public method and constructor comments are required;Documentation;CommentRequired
+248;main.java.app;src/main/java/app/City.java;3;12;LongVariable: Avoid excessively long variable names like weatherDescription;Code Style;LongVariable
+249;main.java.app;src/main/java/app/City.java;3;12;MethodArgumentCouldBeFinal: Parameter 'feelsLike' is not assigned and could be declared final;Code Style;MethodArgumentCouldBeFinal
+250;main.java.app;src/main/java/app/City.java;3;12;MethodArgumentCouldBeFinal: Parameter 'name' is not assigned and could be declared final;Code Style;MethodArgumentCouldBeFinal
+251;main.java.app;src/main/java/app/City.java;3;12;MethodArgumentCouldBeFinal: Parameter 'temperature' is not assigned and could be declared final;Code Style;MethodArgumentCouldBeFinal
+252;main.java.app;src/main/java/app/City.java;3;12;MethodArgumentCouldBeFinal: Parameter 'weatherDescription' is not assigned and could be declared final;Code Style;MethodArgumentCouldBeFinal
+253;main.java.app;src/main/java/app/City.java;3;35;CommentRequired: Public method and constructor comments are required;Documentation;CommentRequired
+254;main.java.app;src/main/java/app/City.java;1;35;MethodNamingConventions: The instance method name 'ToString' doesn't match '[a-z][a-zA-Z0-9]*';Code Style;MethodNamingConventions
+255;main.java.app;src/main/java/app/City.java;3;36;LocalVariableCouldBeFinal: Local variable 'string' could be declared final;Code Style;LocalVariableCouldBeFinal
+256;main.java.app;src/main/java/app/City.java;3;36;"StringToString: Avoid calling toString() on String objects; this is unnecessary.";Performance;StringToString
+257;main.java.app;src/main/java/app/City.java;3;38;UnnecessaryLocalBeforeReturn: Consider simply returning the value vs storing it in local variable 'string';Code Style;UnnecessaryLocalBeforeReturn
+258;main.java.app;src/main/java/app/MeteoDataCenter.java;3;9;AtLeastOneConstructor: Each class should declare at least one constructor;Code Style;AtLeastOneConstructor
+259;main.java.app;src/main/java/app/MeteoDataCenter.java;3;9;CommentRequired: Class comments are required;Documentation;CommentRequired
+260;main.java.app;src/main/java/app/MeteoDataCenter.java;3;11;CommentRequired: Field comments are required;Documentation;CommentRequired
+261;main.java.app;src/main/java/app/MeteoDataCenter.java;3;11;"ImmutableField: Private field 'key' could be made final; it is only initialized in the declaration or constructor.";Design;ImmutableField
+262;main.java.app;src/main/java/app/MeteoDataCenter.java;3;12;CommentRequired: Public method and constructor comments are required;Documentation;CommentRequired
+263;main.java.app;src/main/java/app/MeteoDataCenter.java;3;12;MethodArgumentCouldBeFinal: Parameter 'cityName' is not assigned and could be declared final;Code Style;MethodArgumentCouldBeFinal
+264;main.java.app;src/main/java/app/MeteoDataCenter.java;5;13;DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'city' (lines '13'-'44').;Error Prone;DataflowAnomalyAnalysis
+265;main.java.app;src/main/java/app/MeteoDataCenter.java;5;13;DataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'city' (lines '13'-'51').;Error Prone;DataflowAnomalyAnalysis
+266;main.java.app;src/main/java/app/MeteoDataCenter.java;3;15;LocalVariableCouldBeFinal: Local variable 'url' could be declared final;Code Style;LocalVariableCouldBeFinal
+267;main.java.app;src/main/java/app/MeteoDataCenter.java;3;18;LocalVariableCouldBeFinal: Local variable 'conn' could be declared final;Code Style;LocalVariableCouldBeFinal
+268;main.java.app;src/main/java/app/MeteoDataCenter.java;3;19;LawOfDemeter: Potential violation of Law of Demeter (object not created locally);Design;LawOfDemeter
+269;main.java.app;src/main/java/app/MeteoDataCenter.java;3;20;LawOfDemeter: Potential violation of Law of Demeter (object not created locally);Design;LawOfDemeter
+270;main.java.app;src/main/java/app/MeteoDataCenter.java;3;22;LawOfDemeter: Potential violation of Law of Demeter (object not created locally);Design;LawOfDemeter
+271;main.java.app;src/main/java/app/MeteoDataCenter.java;3;22;LocalVariableCouldBeFinal: Local variable 'responseCode' could be declared final;Code Style;LocalVariableCouldBeFinal
+272;main.java.app;src/main/java/app/MeteoDataCenter.java;3;24;AvoidLiteralsInIfCondition: Avoid using Literals in Conditional Statements;Error Prone;AvoidLiteralsInIfCondition
+273;main.java.app;src/main/java/app/MeteoDataCenter.java;3;24;"ConfusingTernary: Avoid if (x != y) ..; else ..;";Code Style;ConfusingTernary
+274;main.java.app;src/main/java/app/MeteoDataCenter.java;1;25;AvoidThrowingRawExceptionTypes: Avoid throwing raw exception types.;Design;AvoidThrowingRawExceptionTypes
+275;main.java.app;src/main/java/app/MeteoDataCenter.java;3;28;LocalVariableCouldBeFinal: Local variable 'informationString' could be declared final;Code Style;LocalVariableCouldBeFinal
+276;main.java.app;src/main/java/app/MeteoDataCenter.java;3;29;CloseResource: Ensure that resources like this Scanner object are closed after use;Error Prone;CloseResource
+277;main.java.app;src/main/java/app/MeteoDataCenter.java;3;29;LocalVariableCouldBeFinal: Local variable 'scanner' could be declared final;Code Style;LocalVariableCouldBeFinal
+278;main.java.app;src/main/java/app/MeteoDataCenter.java;3;37;LocalVariableCouldBeFinal: Local variable 'parser' could be declared final;Code Style;LocalVariableCouldBeFinal
+279;main.java.app;src/main/java/app/MeteoDataCenter.java;3;38;LocalVariableCouldBeFinal: Local variable 'object' could be declared final;Code Style;LocalVariableCouldBeFinal
+280;main.java.app;src/main/java/app/MeteoDataCenter.java;3;39;LawOfDemeter: Potential violation of Law of Demeter (object not created locally);Design;LawOfDemeter
+281;main.java.app;src/main/java/app/MeteoDataCenter.java;3;40;LawOfDemeter: Potential violation of Law of Demeter (object not created locally);Design;LawOfDemeter
+282;main.java.app;src/main/java/app/MeteoDataCenter.java;3;40;LocalVariableCouldBeFinal: Local variable 'weather' could be declared final;Code Style;LocalVariableCouldBeFinal
+283;main.java.app;src/main/java/app/MeteoDataCenter.java;3;41;LawOfDemeter: Potential violation of Law of Demeter (method chain calls);Design;LawOfDemeter
+284;main.java.app;src/main/java/app/MeteoDataCenter.java;3;41;LawOfDemeter: Potential violation of Law of Demeter (object not created locally);Design;LawOfDemeter
+285;main.java.app;src/main/java/app/MeteoDataCenter.java;3;41;LocalVariableCouldBeFinal: Local variable 'temperature' could be declared final;Code Style;LocalVariableCouldBeFinal
+286;main.java.app;src/main/java/app/MeteoDataCenter.java;3;42;LawOfDemeter: Potential violation of Law of Demeter (method chain calls);Design;LawOfDemeter
+287;main.java.app;src/main/java/app/MeteoDataCenter.java;3;42;LawOfDemeter: Potential violation of Law of Demeter (object not created locally);Design;LawOfDemeter
+288;main.java.app;src/main/java/app/MeteoDataCenter.java;3;42;LocalVariableCouldBeFinal: Local variable 'feelsLike' could be declared final;Code Style;LocalVariableCouldBeFinal
+289;main.java.app;src/main/java/app/MeteoDataCenter.java;3;43;LawOfDemeter: Potential violation of Law of Demeter (object not created locally);Design;LawOfDemeter
+290;main.java.app;src/main/java/app/MeteoDataCenter.java;3;43;LocalVariableCouldBeFinal: Local variable 'weatherDescription' could be declared final;Code Style;LocalVariableCouldBeFinal
+291;main.java.app;src/main/java/app/MeteoDataCenter.java;3;43;LongVariable: Avoid excessively long variable names like weatherDescription;Code Style;LongVariable
+292;main.java.app;src/main/java/app/MeteoDataCenter.java;3;47;AvoidCatchingGenericException: Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block;Design;AvoidCatchingGenericException
+293;main.java.app;src/main/java/app/MeteoDataCenter.java;3;48;"AvoidPrintStackTrace: Avoid printStackTrace(); use a logger call instead.";Best Practices;AvoidPrintStackTrace
+294;main.java.app;src/main/java/app/NavigationController.java;3;3;CommentRequired: Class comments are required;Documentation;CommentRequired
+295;main.java.app;src/main/java/app/NavigationController.java;3;5;CommentRequired: Public method and constructor comments are required;Documentation;CommentRequired
+296;main.java.app;src/main/java/app/NavigationController.java;3;5;MethodArgumentCouldBeFinal: Parameter 'args' is not assigned and could be declared final;Code Style;MethodArgumentCouldBeFinal
+297;main.java.app;src/main/java/app/NavigationController.java;3;6;LocalVariableCouldBeFinal: Local variable 'navigationController' could be declared final;Code Style;LocalVariableCouldBeFinal
+298;main.java.app;src/main/java/app/NavigationController.java;3;6;LongVariable: Avoid excessively long variable names like navigationController;Code Style;LongVariable
+299;main.java.app;src/main/java/app/NavigationController.java;3;10;CommentRequired: Field comments are required;Documentation;CommentRequired
+300;main.java.app;src/main/java/app/NavigationController.java;3;10;"ImmutableField: Private field 'actions' could be made final; it is only initialized in the declaration or constructor.";Design;ImmutableField
+301;main.java.app;src/main/java/app/NavigationController.java;3;10;UseShortArrayInitializer: Array initialization can be written shorter;Code Style;UseShortArrayInitializer
+302;main.java.app;src/main/java/app/NavigationController.java;3;11;CommentRequired: Public method and constructor comments are required;Documentation;CommentRequired
+303;main.java.app;src/main/java/app/NavigationController.java;3;11;MissingOverride: The method 'execute()' is missing an @Override annotation.;Best Practices;MissingOverride
+304;main.java.app;src/main/java/app/NavigationController.java;3;12;AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes;Best Practices;AccessorMethodGeneration
+305;main.java.app;src/main/java/app/NavigationController.java;3;15;CommentRequired: Public method and constructor comments are required;Documentation;CommentRequired
+306;main.java.app;src/main/java/app/NavigationController.java;3;15;MissingOverride: The method 'execute()' is missing an @Override annotation.;Best Practices;MissingOverride
+307;main.java.app;src/main/java/app/NavigationController.java;3;16;AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes;Best Practices;AccessorMethodGeneration
+308;main.java.app;src/main/java/app/NavigationController.java;3;19;CommentRequired: Public method and constructor comments are required;Documentation;CommentRequired
+309;main.java.app;src/main/java/app/NavigationController.java;3;19;MissingOverride: The method 'execute()' is missing an @Override annotation.;Best Practices;MissingOverride
+310;main.java.app;src/main/java/app/NavigationController.java;3;20;AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes;Best Practices;AccessorMethodGeneration
+311;main.java.app;src/main/java/app/NavigationController.java;3;23;CommentRequired: Public method and constructor comments are required;Documentation;CommentRequired
+312;main.java.app;src/main/java/app/NavigationController.java;3;23;MissingOverride: The method 'execute()' is missing an @Override annotation.;Best Practices;MissingOverride
+313;main.java.app;src/main/java/app/NavigationController.java;3;24;AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes;Best Practices;AccessorMethodGeneration
+314;main.java.app;src/main/java/app/NavigationController.java;3;27;CommentRequired: Public method and constructor comments are required;Documentation;CommentRequired
+315;main.java.app;src/main/java/app/NavigationController.java;3;27;MissingOverride: The method 'execute()' is missing an @Override annotation.;Best Practices;MissingOverride
+316;main.java.app;src/main/java/app/NavigationController.java;3;28;AccessorMethodGeneration: Avoid autogenerated methods to access private fields and methods of inner / outer classes;Best Practices;AccessorMethodGeneration
+317;main.java.app;src/main/java/app/NavigationController.java;3;32;CommentRequired: Field comments are required;Documentation;CommentRequired
+318;main.java.app;src/main/java/app/NavigationController.java;3;32;FieldDeclarationsShouldBeAtStartOfClass: Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.;Code Style;FieldDeclarationsShouldBeAtStartOfClass
+319;main.java.app;src/main/java/app/NavigationController.java;3;32;"ImmutableField: Private field 'userDatabase' could be made final; it is only initialized in the declaration or constructor.";Design;ImmutableField
+320;main.java.app;src/main/java/app/NavigationController.java;3;33;CommentRequired: Field comments are required;Documentation;CommentRequired
+321;main.java.app;src/main/java/app/NavigationController.java;3;33;FieldDeclarationsShouldBeAtStartOfClass: Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.;Code Style;FieldDeclarationsShouldBeAtStartOfClass
+322;main.java.app;src/main/java/app/NavigationController.java;3;34;CommentRequired: Field comments are required;Documentation;CommentRequired
+323;main.java.app;src/main/java/app/NavigationController.java;3;34;FieldDeclarationsShouldBeAtStartOfClass: Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.;Code Style;FieldDeclarationsShouldBeAtStartOfClass
+324;main.java.app;src/main/java/app/NavigationController.java;3;34;"ImmutableField: Private field 'uiComponent' could be made final; it is only initialized in the declaration or constructor.";Design;ImmutableField
+325;main.java.app;src/main/java/app/NavigationController.java;3;35;CommentRequired: Field comments are required;Documentation;CommentRequired
+326;main.java.app;src/main/java/app/NavigationController.java;3;35;FieldDeclarationsShouldBeAtStartOfClass: Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.;Code Style;FieldDeclarationsShouldBeAtStartOfClass
+327;main.java.app;src/main/java/app/NavigationController.java;3;35;"ImmutableField: Private field 'meteoDataCenter' could be made final; it is only initialized in the declaration or constructor.";Design;ImmutableField
+328;main.java.app;src/main/java/app/NavigationController.java;3;37;CommentRequired: Public method and constructor comments are required;Documentation;CommentRequired
+329;main.java.app;src/main/java/app/NavigationController.java;3;43;CommentRequired: Public method and constructor comments are required;Documentation;CommentRequired
+330;main.java.app;src/main/java/app/NavigationController.java;3;45;LocalVariableCouldBeFinal: Local variable 'navigationAnswer' could be declared final;Code Style;LocalVariableCouldBeFinal
+331;main.java.app;src/main/java/app/NavigationController.java;3;51;LocalVariableCouldBeFinal: Local variable 'navigationAnswer' could be declared final;Code Style;LocalVariableCouldBeFinal
+332;main.java.app;src/main/java/app/NavigationController.java;3;73;LocalVariableCouldBeFinal: Local variable 'cityPicked' could be declared final;Code Style;LocalVariableCouldBeFinal
+333;main.java.app;src/main/java/app/NavigationController.java;3;74;LocalVariableCouldBeFinal: Local variable 'city' could be declared final;Code Style;LocalVariableCouldBeFinal
+334;main.java.app;src/main/java/app/NavigationController.java;3;81;AvoidCallingFinalize: Avoid calling finalize() explicitly;Error Prone;AvoidCallingFinalize
+335;main.java.app;src/main/java/app/NavigationController.java;3;82;DoNotTerminateVM: System.exit() should not be used in J2EE/JEE apps;Error Prone;DoNotTerminateVM
+336;main.java.app;src/main/java/app/NavigationController.java;3;85;CommentRequired: Class comments are required;Documentation;CommentRequired
+337;main.java.app;src/main/java/app/NavigationController.java;3;86;CommentRequired: Public method and constructor comments are required;Documentation;CommentRequired
+338;main.java.app;src/main/java/app/UIComponent.java;3;5;CommentRequired: Class comments are required;Documentation;CommentRequired
+339;main.java.app;src/main/java/app/UIComponent.java;3;5;TooManyMethods: This class has too many methods, consider refactoring it.;Design;TooManyMethods
+340;main.java.app;src/main/java/app/UIComponent.java;3;6;CommentRequired: Field comments are required;Documentation;CommentRequired
+341;main.java.app;src/main/java/app/UIComponent.java;3;6;"ImmutableField: Private field 'scanner' could be made final; it is only initialized in the declaration or constructor.";Design;ImmutableField
+342;main.java.app;src/main/java/app/UIComponent.java;3;7;CommentRequired: Field comments are required;Documentation;CommentRequired
+343;main.java.app;src/main/java/app/UIComponent.java;3;7;"ImmutableField: Private field 'cities' could be made final; it is only initialized in the declaration or constructor.";Design;ImmutableField
+344;main.java.app;src/main/java/app/UIComponent.java;3;9;CommentRequired: Public method and constructor comments are required;Documentation;CommentRequired
+345;main.java.app;src/main/java/app/UIComponent.java;3;14;CommentRequired: Public method and constructor comments are required;Documentation;CommentRequired
+346;main.java.app;src/main/java/app/UIComponent.java;2;15;SystemPrintln: System.out.println is used;Best Practices;SystemPrintln
+347;main.java.app;src/main/java/app/UIComponent.java;3;18;CommentRequired: Public method and constructor comments are required;Documentation;CommentRequired
+348;main.java.app;src/main/java/app/UIComponent.java;2;19;SystemPrintln: System.out.println is used;Best Practices;SystemPrintln
+349;main.java.app;src/main/java/app/UIComponent.java;3;22;CommentRequired: Public method and constructor comments are required;Documentation;CommentRequired
+350;main.java.app;src/main/java/app/UIComponent.java;2;23;SystemPrintln: System.out.println is used;Best Practices;SystemPrintln
+351;main.java.app;src/main/java/app/UIComponent.java;3;26;CommentRequired: Public method and constructor comments are required;Documentation;CommentRequired
+352;main.java.app;src/main/java/app/UIComponent.java;2;27;SystemPrintln: System.out.print is used;Best Practices;SystemPrintln
+353;main.java.app;src/main/java/app/UIComponent.java;3;30;CommentRequired: Public method and constructor comments are required;Documentation;CommentRequired
+354;main.java.app;src/main/java/app/UIComponent.java;3;30;MethodArgumentCouldBeFinal: Parameter 'city' is not assigned and could be declared final;Code Style;MethodArgumentCouldBeFinal
+355;main.java.app;src/main/java/app/UIComponent.java;2;32;SystemPrintln: System.out.println is used;Best Practices;SystemPrintln
+356;main.java.app;src/main/java/app/UIComponent.java;3;37;CommentRequired: Public method and constructor comments are required;Documentation;CommentRequired
+357;main.java.app;src/main/java/app/UIComponent.java;2;38;SystemPrintln: System.out.println is used;Best Practices;SystemPrintln
+358;main.java.app;src/main/java/app/UIComponent.java;3;41;CommentRequired: Public method and constructor comments are required;Documentation;CommentRequired
+359;main.java.app;src/main/java/app/UIComponent.java;2;42;SystemPrintln: System.out.println is used;Best Practices;SystemPrintln
+360;main.java.app;src/main/java/app/UIComponent.java;3;46;CommentRequired: Public method and constructor comments are required;Documentation;CommentRequired
+361;main.java.app;src/main/java/app/UIComponent.java;3;46;MethodArgumentCouldBeFinal: Parameter 'maxAnswer' is not assigned and could be declared final;Code Style;MethodArgumentCouldBeFinal
+362;main.java.app;src/main/java/app/UIComponent.java;3;46;MethodArgumentCouldBeFinal: Parameter 'minAnswer' is not assigned and could be declared final;Code Style;MethodArgumentCouldBeFinal
+363;main.java.app;src/main/java/app/UIComponent.java;2;48;SystemPrintln: System.out.print is used;Best Practices;SystemPrintln
+364;main.java.app;src/main/java/app/UIComponent.java;3;49;LocalVariableCouldBeFinal: Local variable 'action' could be declared final;Code Style;LocalVariableCouldBeFinal
+365;main.java.app;src/main/java/app/UIComponent.java;3;53;OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method;Code Style;OnlyOneReturn
+366;main.java.app;src/main/java/app/UIComponent.java;2;55;SystemPrintln: System.out.println is used;Best Practices;SystemPrintln
+367;main.java.app;src/main/java/app/UIComponent.java;3;60;CommentRequired: Public method and constructor comments are required;Documentation;CommentRequired
+368;main.java.app;src/main/java/app/UIComponent.java;3;60;MethodArgumentCouldBeFinal: Parameter 'textToPrint' is not assigned and could be declared final;Code Style;MethodArgumentCouldBeFinal
+369;main.java.app;src/main/java/app/UIComponent.java;2;61;SystemPrintln: System.out.print is used;Best Practices;SystemPrintln
+370;main.java.app;src/main/java/app/UIComponent.java;3;65;CommentRequired: Public method and constructor comments are required;Documentation;CommentRequired
+371;main.java.app;src/main/java/app/UIComponent.java;2;66;SystemPrintln: System.out.print is used;Best Practices;SystemPrintln
+372;main.java.app;src/main/java/app/UIComponent.java;3;67;LocalVariableCouldBeFinal: Local variable 'login' could be declared final;Code Style;LocalVariableCouldBeFinal
+373;main.java.app;src/main/java/app/UIComponent.java;2;68;SystemPrintln: System.out.print is used;Best Practices;SystemPrintln
+374;main.java.app;src/main/java/app/UIComponent.java;3;69;LocalVariableCouldBeFinal: Local variable 'password' could be declared final;Code Style;LocalVariableCouldBeFinal
+375;main.java.app;src/main/java/app/UIComponent.java;3;73;CommentRequired: Public method and constructor comments are required;Documentation;CommentRequired
+376;main.java.app;src/main/java/app/UIComponent.java;2;74;SystemPrintln: System.out.print is used;Best Practices;SystemPrintln
+377;main.java.app;src/main/java/app/UIComponent.java;3;75;LocalVariableCouldBeFinal: Local variable 'login' could be declared final;Code Style;LocalVariableCouldBeFinal
+378;main.java.app;src/main/java/app/UIComponent.java;2;76;SystemPrintln: System.out.print is used;Best Practices;SystemPrintln
+379;main.java.app;src/main/java/app/UIComponent.java;3;77;LocalVariableCouldBeFinal: Local variable 'password' could be declared final;Code Style;LocalVariableCouldBeFinal
+380;main.java.app;src/main/java/app/UIComponent.java;3;81;CommentRequired: Public method and constructor comments are required;Documentation;CommentRequired
+381;main.java.app;src/main/java/app/UIComponent.java;3;81;MethodArgumentCouldBeFinal: Parameter 'maxAnswer' is not assigned and could be declared final;Code Style;MethodArgumentCouldBeFinal
+382;main.java.app;src/main/java/app/UIComponent.java;3;81;MethodArgumentCouldBeFinal: Parameter 'minAnswer' is not assigned and could be declared final;Code Style;MethodArgumentCouldBeFinal
+383;main.java.app;src/main/java/app/UIComponent.java;2;82;SystemPrintln: System.out.println is used;Best Practices;SystemPrintln
+384;main.java.app;src/main/java/app/UIComponent.java;3;84;LocalVariableCouldBeFinal: Local variable 'action' could be declared final;Code Style;LocalVariableCouldBeFinal
+385;main.java.app;src/main/java/app/UIComponent.java;3;88;OnlyOneReturn: A method should have only one exit point, and that should be the last statement in the method;Code Style;OnlyOneReturn
+386;main.java.app;src/main/java/app/UIComponent.java;2;90;SystemPrintln: System.out.println is used;Best Practices;SystemPrintln
+387;main.java.app;src/main/java/app/UIComponent.java;3;95;AvoidUncheckedExceptionsInSignatures: A method or constructor should not explicitly declare unchecked exceptions in its 'throws' clause;Design;AvoidUncheckedExceptionsInSignatures
+388;main.java.app;src/main/java/app/UIComponent.java;3;95;MethodArgumentCouldBeFinal: Parameter 'input' is not assigned and could be declared final;Code Style;MethodArgumentCouldBeFinal
+389;main.java.app;src/main/java/app/User.java;3;2;CommentRequired: Class comments are required;Documentation;CommentRequired
+390;main.java.app;src/main/java/app/User.java;4;2;ShortClassName: Avoid short class names like User;Code Style;ShortClassName
+391;main.java.app;src/main/java/app/User.java;3;3;CommentRequired: Field comments are required;Documentation;CommentRequired
+392;main.java.app;src/main/java/app/User.java;3;4;CommentRequired: Field comments are required;Documentation;CommentRequired
+393;main.java.app;src/main/java/app/User.java;3;6;CommentRequired: Public method and constructor comments are required;Documentation;CommentRequired
+394;main.java.app;src/main/java/app/User.java;3;6;MethodArgumentCouldBeFinal: Parameter 'login' is not assigned and could be declared final;Code Style;MethodArgumentCouldBeFinal
+395;main.java.app;src/main/java/app/User.java;3;6;MethodArgumentCouldBeFinal: Parameter 'password' is not assigned and could be declared final;Code Style;MethodArgumentCouldBeFinal
+396;main.java.app;src/main/java/app/UserDatabase.java;3;10;CommentRequired: Class comments are required;Documentation;CommentRequired
+397;main.java.app;src/main/java/app/UserDatabase.java;3;11;CommentRequired: Field comments are required;Documentation;CommentRequired
+398;main.java.app;src/main/java/app/UserDatabase.java;3;11;LongVariable: Avoid excessively long variable names like DATABASE_DIRECTORY;Code Style;LongVariable
+399;main.java.app;src/main/java/app/UserDatabase.java;3;12;CommentRequired: Field comments are required;Documentation;CommentRequired
+400;main.java.app;src/main/java/app/UserDatabase.java;3;13;CommentRequired: Field comments are required;Documentation;CommentRequired
+401;main.java.app;src/main/java/app/UserDatabase.java;3;15;CommentRequired: Field comments are required;Documentation;CommentRequired
+402;main.java.app;src/main/java/app/UserDatabase.java;3;16;CommentRequired: Field comments are required;Documentation;CommentRequired
+403;main.java.app;src/main/java/app/UserDatabase.java;3;17;CommentRequired: Field comments are required;Documentation;CommentRequired
+404;main.java.app;src/main/java/app/UserDatabase.java;3;19;CommentRequired: Public method and constructor comments are required;Documentation;CommentRequired
+405;main.java.app;src/main/java/app/UserDatabase.java;1;24;ConstructorCallsOverridableMethod: Overridable method 'isUserCorrect' called during object construction (call stack: [createFirstAdmin, isUserCorrect]);Error Prone;ConstructorCallsOverridableMethod
+406;main.java.app;src/main/java/app/UserDatabase.java;2;25;SystemPrintln: System.out.println is used;Best Practices;SystemPrintln
+407;main.java.app;src/main/java/app/UserDatabase.java;2;27;SystemPrintln: System.out.println is used;Best Practices;SystemPrintln
+408;main.java.app;src/main/java/app/UserDatabase.java;3;32;LocalVariableCouldBeFinal: Local variable 'sql' could be declared final;Code Style;LocalVariableCouldBeFinal
+409;main.java.app;src/main/java/app/UserDatabase.java;2;37;SystemPrintln: System.out.println is used;Best Practices;SystemPrintln
+410;main.java.app;src/main/java/app/UserDatabase.java;3;43;FinalizeDoesNotCallSuperFinalize: Last statement in finalize method should be a call to super.finalize();Error Prone;FinalizeDoesNotCallSuperFinalize
+411;main.java.app;src/main/java/app/UserDatabase.java;2;47;SystemPrintln: System.out.println is used;Best Practices;SystemPrintln
+412;main.java.app;src/main/java/app/UserDatabase.java;2;49;SystemPrintln: System.out.println is used;Best Practices;SystemPrintln
+413;main.java.app;src/main/java/app/UserDatabase.java;3;53;CommentRequired: Public method and constructor comments are required;Documentation;CommentRequired
+414;main.java.app;src/main/java/app/UserDatabase.java;2;57;SystemPrintln: System.out.println is used;Best Practices;SystemPrintln
+415;main.java.app;src/main/java/app/UserDatabase.java;3;62;LocalVariableCouldBeFinal: Local variable 'firstAdmin' could be declared final;Code Style;LocalVariableCouldBeFinal
+416;main.java.app;src/main/java/app/UserDatabase.java;3;68;CommentRequired: Public method and constructor comments are required;Documentation;CommentRequired
+417;main.java.app;src/main/java/app/UserDatabase.java;3;68;MethodArgumentCouldBeFinal: Parameter 'toVerify' is not assigned and could be declared final;Code Style;MethodArgumentCouldBeFinal
+418;main.java.app;src/main/java/app/UserDatabase.java;3;69;LocalVariableCouldBeFinal: Local variable 'findedUser' could be declared final;Code Style;LocalVariableCouldBeFinal
+419;main.java.app;src/main/java/app/UserDatabase.java;3;70;LocalVariableCouldBeFinal: Local variable 'isUserFound' could be declared final;Code Style;LocalVariableCouldBeFinal
+420;main.java.app;src/main/java/app/UserDatabase.java;5;71;DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'isLoginCorrect' (lines '71'-'74').;Error Prone;DataflowAnomalyAnalysis
+421;main.java.app;src/main/java/app/UserDatabase.java;5;72;DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'isPasswordCorrect' (lines '72'-'75').;Error Prone;DataflowAnomalyAnalysis
+422;main.java.app;src/main/java/app/UserDatabase.java;3;74;LawOfDemeter: Potential violation of Law of Demeter (method chain calls);Design;LawOfDemeter
+423;main.java.app;src/main/java/app/UserDatabase.java;3;75;LawOfDemeter: Potential violation of Law of Demeter (method chain calls);Design;LawOfDemeter
+424;main.java.app;src/main/java/app/UserDatabase.java;3;77;ControlStatementBraces: This statement should have braces;Code Style;ControlStatementBraces
+425;main.java.app;src/main/java/app/UserDatabase.java;3;77;IfElseStmtsMustUseBraces: Avoid using if...else statements without curly braces;Code Style;IfElseStmtsMustUseBraces
+426;main.java.app;src/main/java/app/UserDatabase.java;2;77;SystemPrintln: System.out.println is used;Best Practices;SystemPrintln
+427;main.java.app;src/main/java/app/UserDatabase.java;3;81;CommentRequired: Public method and constructor comments are required;Documentation;CommentRequired
+428;main.java.app;src/main/java/app/UserDatabase.java;3;81;MethodArgumentCouldBeFinal: Parameter 'loginToFind' is not assigned and could be declared final;Code Style;MethodArgumentCouldBeFinal
+429;main.java.app;src/main/java/app/UserDatabase.java;5;82;DataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'toReturn' (lines '82'-'89').;Error Prone;DataflowAnomalyAnalysis
+430;main.java.app;src/main/java/app/UserDatabase.java;3;83;LocalVariableCouldBeFinal: Local variable 'sql' could be declared final;Code Style;LocalVariableCouldBeFinal
+431;main.java.app;src/main/java/app/UserDatabase.java;3;87;CloseResource: Ensure that resources like this ResultSet object are closed after use;Error Prone;CloseResource
+432;main.java.app;src/main/java/app/UserDatabase.java;3;87;LocalVariableCouldBeFinal: Local variable 'result' could be declared final;Code Style;LocalVariableCouldBeFinal
+433;main.java.app;src/main/java/app/UserDatabase.java;3;88;LawOfDemeter: Potential violation of Law of Demeter (object not created locally);Design;LawOfDemeter
+434;main.java.app;src/main/java/app/UserDatabase.java;3;89;LawOfDemeter: Potential violation of Law of Demeter (object not created locally);Design;LawOfDemeter
+435;main.java.app;src/main/java/app/UserDatabase.java;3;89;LawOfDemeter: Potential violation of Law of Demeter (object not created locally);Design;LawOfDemeter
+436;main.java.app;src/main/java/app/UserDatabase.java;2;92;SystemPrintln: System.out.println is used;Best Practices;SystemPrintln
+437;main.java.app;src/main/java/app/UserDatabase.java;3;97;CommentRequired: Public method and constructor comments are required;Documentation;CommentRequired
+438;main.java.app;src/main/java/app/UserDatabase.java;3;97;MethodArgumentCouldBeFinal: Parameter 'userToAdd' is not assigned and could be declared final;Code Style;MethodArgumentCouldBeFinal
+439;main.java.app;src/main/java/app/UserDatabase.java;3;98;LocalVariableCouldBeFinal: Local variable 'sql' could be declared final;Code Style;LocalVariableCouldBeFinal
+440;main.java.app;src/main/java/app/UserDatabase.java;3;103;LocalVariableCouldBeFinal: Local variable 'rowsAffected' could be declared final;Code Style;LocalVariableCouldBeFinal
+441;main.java.app;src/main/java/app/UserDatabase.java;2;105;SystemPrintln: System.out.println is used;Best Practices;SystemPrintln
+442;main.java.app;src/main/java/app/UserDatabase.java;2;108;SystemPrintln: System.out.println is used;Best Practices;SystemPrintln
+443;main.java.app;src/main/java/app/UserDatabase.java;3;112;CommentRequired: Public method and constructor comments are required;Documentation;CommentRequired
+444;main.java.app;src/main/java/app/UserDatabase.java;3;112;MethodArgumentCouldBeFinal: Parameter 'login' is not assigned and could be declared final;Code Style;MethodArgumentCouldBeFinal
+445;main.java.app;src/main/java/app/UserDatabase.java;3;113;LocalVariableCouldBeFinal: Local variable 'sql' could be declared final;Code Style;LocalVariableCouldBeFinal
+446;main.java.app;src/main/java/app/UserDatabase.java;3;117;LocalVariableCouldBeFinal: Local variable 'rowsAffected' could be declared final;Code Style;LocalVariableCouldBeFinal
+447;main.java.app;src/main/java/app/UserDatabase.java;3;118;"ConfusingTernary: Avoid if (x != y) ..; else ..;";Code Style;ConfusingTernary
+448;main.java.app;src/main/java/app/UserDatabase.java;2;119;SystemPrintln: System.out.println is used;Best Practices;SystemPrintln
+449;main.java.app;src/main/java/app/UserDatabase.java;2;121;SystemPrintln: System.out.println is used;Best Practices;SystemPrintln
+450;main.java.app;src/main/java/app/UserDatabase.java;2;124;SystemPrintln: System.out.println is used;Best Practices;SystemPrintln
+451;cucumber_tests;src/test/java/cucumber_tests/AddUserStepDefinitions.java;3;11;AtLeastOneConstructor: Each class should declare at least one constructor;Code Style;AtLeastOneConstructor
+452;cucumber_tests;src/test/java/cucumber_tests/AddUserStepDefinitions.java;3;11;CommentRequired: Class comments are required;Documentation;CommentRequired
+453;cucumber_tests;src/test/java/cucumber_tests/AddUserStepDefinitions.java;3;13;CommentRequired: Field comments are required;Documentation;CommentRequired
+454;cucumber_tests;src/test/java/cucumber_tests/AddUserStepDefinitions.java;3;14;CommentRequired: Field comments are required;Documentation;CommentRequired
+455;cucumber_tests;src/test/java/cucumber_tests/AddUserStepDefinitions.java;3;15;CommentRequired: Field comments are required;Documentation;CommentRequired
+456;cucumber_tests;src/test/java/cucumber_tests/AddUserStepDefinitions.java;3;18;CommentRequired: Public method and constructor comments are required;Documentation;CommentRequired
+457;cucumber_tests;src/test/java/cucumber_tests/AddUserStepDefinitions.java;3;18;MethodArgumentCouldBeFinal: Parameter 'string' is not assigned and could be declared final;Code Style;MethodArgumentCouldBeFinal
+458;cucumber_tests;src/test/java/cucumber_tests/AddUserStepDefinitions.java;3;18;MethodArgumentCouldBeFinal: Parameter 'string2' is not assigned and could be declared final;Code Style;MethodArgumentCouldBeFinal
+459;cucumber_tests;src/test/java/cucumber_tests/AddUserStepDefinitions.java;1;18;MethodNamingConventions: The instance method name 'i_add_an_user_with_the_following_informations_and' doesn't match '[a-z][a-zA-Z0-9]*';Code Style;MethodNamingConventions
+460;cucumber_tests;src/test/java/cucumber_tests/AddUserStepDefinitions.java;3;24;CommentRequired: Public method and constructor comments are required;Documentation;CommentRequired
+461;cucumber_tests;src/test/java/cucumber_tests/AddUserStepDefinitions.java;1;24;MethodNamingConventions: The instance method name 'i_ask_check_if_the_user_has_been_added' doesn't match '[a-z][a-zA-Z0-9]*';Code Style;MethodNamingConventions
+462;cucumber_tests;src/test/java/cucumber_tests/AddUserStepDefinitions.java;3;29;CommentRequired: Public method and constructor comments are required;Documentation;CommentRequired
+463;cucumber_tests;src/test/java/cucumber_tests/AddUserStepDefinitions.java;1;29;MethodNamingConventions: The instance method name 'i_should_get_him' doesn't match '[a-z][a-zA-Z0-9]*';Code Style;MethodNamingConventions
+464;cucumber_tests;src/test/java/cucumber_tests/AddUserStepDefinitions.java;3;31;JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message;Best Practices;JUnitAssertionsShouldIncludeMessage
+465;cucumber_tests;src/test/java/cucumber_tests/ApiCallStepDefinitions.java;3;11;AtLeastOneConstructor: Each class should declare at least one constructor;Code Style;AtLeastOneConstructor
+466;cucumber_tests;src/test/java/cucumber_tests/ApiCallStepDefinitions.java;3;11;CommentRequired: Class comments are required;Documentation;CommentRequired
+467;cucumber_tests;src/test/java/cucumber_tests/ApiCallStepDefinitions.java;3;13;CommentRequired: Field comments are required;Documentation;CommentRequired
+468;cucumber_tests;src/test/java/cucumber_tests/ApiCallStepDefinitions.java;3;14;CommentRequired: Field comments are required;Documentation;CommentRequired
+469;cucumber_tests;src/test/java/cucumber_tests/ApiCallStepDefinitions.java;3;15;CommentRequired: Field comments are required;Documentation;CommentRequired
+470;cucumber_tests;src/test/java/cucumber_tests/ApiCallStepDefinitions.java;3;18;CommentRequired: Public method and constructor comments are required;Documentation;CommentRequired
+471;cucumber_tests;src/test/java/cucumber_tests/ApiCallStepDefinitions.java;3;18;MethodArgumentCouldBeFinal: Parameter 'string' is not assigned and could be declared final;Code Style;MethodArgumentCouldBeFinal
+472;cucumber_tests;src/test/java/cucumber_tests/ApiCallStepDefinitions.java;1;18;MethodNamingConventions: The instance method name 'user_wants_to_get_meteo_data' doesn't match '[a-z][a-zA-Z0-9]*';Code Style;MethodNamingConventions
+473;cucumber_tests;src/test/java/cucumber_tests/ApiCallStepDefinitions.java;3;23;CommentRequired: Public method and constructor comments are required;Documentation;CommentRequired
+474;cucumber_tests;src/test/java/cucumber_tests/ApiCallStepDefinitions.java;1;23;MethodNamingConventions: The instance method name 'he_queries_the_weatherstack_api' doesn't match '[a-z][a-zA-Z0-9]*';Code Style;MethodNamingConventions
+475;cucumber_tests;src/test/java/cucumber_tests/ApiCallStepDefinitions.java;3;28;CommentRequired: Public method and constructor comments are required;Documentation;CommentRequired
+476;cucumber_tests;src/test/java/cucumber_tests/ApiCallStepDefinitions.java;1;28;MethodNamingConventions: The instance method name 'he_should_receive_a_non_null_object' doesn't match '[a-z][a-zA-Z0-9]*';Code Style;MethodNamingConventions
+477;cucumber_tests;src/test/java/cucumber_tests/ApiCallStepDefinitions.java;3;29;JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message;Best Practices;JUnitAssertionsShouldIncludeMessage
+478;cucumber_tests;src/test/java/cucumber_tests/ConnectionStepDefinitions.java;4;3;UnnecessaryImport: Unused import 'io.cucumber.java.After';Code Style;UnnecessaryImport
+479;cucumber_tests;src/test/java/cucumber_tests/ConnectionStepDefinitions.java;4;3;UnusedImports: Unused import 'io.cucumber.java.After';Best Practices;UnusedImports
+480;cucumber_tests;src/test/java/cucumber_tests/ConnectionStepDefinitions.java;3;11;AtLeastOneConstructor: Each class should declare at least one constructor;Code Style;AtLeastOneConstructor
+481;cucumber_tests;src/test/java/cucumber_tests/ConnectionStepDefinitions.java;3;11;CommentRequired: Class comments are required;Documentation;CommentRequired
+482;cucumber_tests;src/test/java/cucumber_tests/ConnectionStepDefinitions.java;3;13;CommentRequired: Field comments are required;Documentation;CommentRequired
+483;cucumber_tests;src/test/java/cucumber_tests/ConnectionStepDefinitions.java;3;14;CommentRequired: Field comments are required;Documentation;CommentRequired
+484;cucumber_tests;src/test/java/cucumber_tests/ConnectionStepDefinitions.java;3;15;CommentRequired: Field comments are required;Documentation;CommentRequired
+485;cucumber_tests;src/test/java/cucumber_tests/ConnectionStepDefinitions.java;3;18;CommentRequired: Public method and constructor comments are required;Documentation;CommentRequired
+486;cucumber_tests;src/test/java/cucumber_tests/ConnectionStepDefinitions.java;3;18;MethodArgumentCouldBeFinal: Parameter 'login' is not assigned and could be declared final;Code Style;MethodArgumentCouldBeFinal
+487;cucumber_tests;src/test/java/cucumber_tests/ConnectionStepDefinitions.java;3;18;MethodArgumentCouldBeFinal: Parameter 'password' is not assigned and could be declared final;Code Style;MethodArgumentCouldBeFinal
+488;cucumber_tests;src/test/java/cucumber_tests/ConnectionStepDefinitions.java;1;18;MethodNamingConventions: The instance method name 'user_login_is_and_user_password_is' doesn't match '[a-z][a-zA-Z0-9]*';Code Style;MethodNamingConventions
+489;cucumber_tests;src/test/java/cucumber_tests/ConnectionStepDefinitions.java;3;23;CommentRequired: Public method and constructor comments are required;Documentation;CommentRequired
+490;cucumber_tests;src/test/java/cucumber_tests/ConnectionStepDefinitions.java;1;23;MethodNamingConventions: The instance method name 'can_user_connect' doesn't match '[a-z][a-zA-Z0-9]*';Code Style;MethodNamingConventions
+491;cucumber_tests;src/test/java/cucumber_tests/ConnectionStepDefinitions.java;3;28;CommentRequired: Public method and constructor comments are required;Documentation;CommentRequired
+492;cucumber_tests;src/test/java/cucumber_tests/ConnectionStepDefinitions.java;3;28;MethodArgumentCouldBeFinal: Parameter 'expectedAnswer' is not assigned and could be declared final;Code Style;MethodArgumentCouldBeFinal
+493;cucumber_tests;src/test/java/cucumber_tests/ConnectionStepDefinitions.java;1;28;MethodNamingConventions: The instance method name 'i_should_be_told' doesn't match '[a-z][a-zA-Z0-9]*';Code Style;MethodNamingConventions
+494;cucumber_tests;src/test/java/cucumber_tests/ConnectionStepDefinitions.java;3;29;JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message;Best Practices;JUnitAssertionsShouldIncludeMessage
+495;cucumber_tests;src/test/java/cucumber_tests/RunCucumberTest.java;3;14;AtLeastOneConstructor: Each class should declare at least one constructor;Code Style;AtLeastOneConstructor
+496;cucumber_tests;src/test/java/cucumber_tests/RunCucumberTest.java;3;14;CommentRequired: Class comments are required;Documentation;CommentRequired
+497;cucumber_tests;src/test/java/cucumber_tests/RunCucumberTest.java;3;14;TestClassWithoutTestCases: The class 'RunCucumberTest' might be a test class, but it contains no test cases.;Error Prone;TestClassWithoutTestCases
+498;unit_tests;src/test/java/unit_tests/TestAddUser.java;3;13;AtLeastOneConstructor: Each class should declare at least one constructor;Code Style;AtLeastOneConstructor
+499;unit_tests;src/test/java/unit_tests/TestAddUser.java;3;13;CommentRequired: Class comments are required;Documentation;CommentRequired
+500;unit_tests;src/test/java/unit_tests/TestAddUser.java;3;15;CommentRequired: Field comments are required;Documentation;CommentRequired
+501;unit_tests;src/test/java/unit_tests/TestAddUser.java;3;16;CommentRequired: Field comments are required;Documentation;CommentRequired
+502;unit_tests;src/test/java/unit_tests/TestAddUser.java;3;27;LocalVariableCouldBeFinal: Local variable 'userFound' could be declared final;Code Style;LocalVariableCouldBeFinal
+503;unit_tests;src/test/java/unit_tests/TestAddUser.java;3;28;JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message;Best Practices;JUnitAssertionsShouldIncludeMessage
+504;unit_tests;src/test/java/unit_tests/TestAddUser.java;3;29;LawOfDemeter: Potential violation of Law of Demeter (object not created locally);Design;LawOfDemeter
+505;unit_tests;src/test/java/unit_tests/TestAddUser.java;3;29;LawOfDemeter: Potential violation of Law of Demeter (object not created locally);Design;LawOfDemeter
+506;unit_tests;src/test/java/unit_tests/TestApiCall.java;3;9;AtLeastOneConstructor: Each class should declare at least one constructor;Code Style;AtLeastOneConstructor
+507;unit_tests;src/test/java/unit_tests/TestApiCall.java;3;9;CommentRequired: Class comments are required;Documentation;CommentRequired
+508;unit_tests;src/test/java/unit_tests/TestApiCall.java;3;11;CommentRequired: Field comments are required;Documentation;CommentRequired
+509;unit_tests;src/test/java/unit_tests/TestApiCall.java;3;11;"ImmutableField: Private field 'meteoDataCenter' could be made final; it is only initialized in the declaration or constructor.";Design;ImmutableField
+510;unit_tests;src/test/java/unit_tests/TestApiCall.java;3;15;JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message;Best Practices;JUnitAssertionsShouldIncludeMessage
+511;unit_tests;src/test/java/unit_tests/TestApiCall.java;3;20;JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message;Best Practices;JUnitAssertionsShouldIncludeMessage
+512;unit_tests;src/test/java/unit_tests/TestApiCall.java;3;25;JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message;Best Practices;JUnitAssertionsShouldIncludeMessage
+513;unit_tests;src/test/java/unit_tests/TestCities.java;3;8;AtLeastOneConstructor: Each class should declare at least one constructor;Code Style;AtLeastOneConstructor
+514;unit_tests;src/test/java/unit_tests/TestCities.java;3;8;CommentRequired: Class comments are required;Documentation;CommentRequired
+515;unit_tests;src/test/java/unit_tests/TestCities.java;3;9;CommentRequired: Field comments are required;Documentation;CommentRequired
+516;unit_tests;src/test/java/unit_tests/TestCities.java;3;9;"ImmutableField: Private field 'cities' could be made final; it is only initialized in the declaration or constructor.";Design;ImmutableField
+517;unit_tests;src/test/java/unit_tests/TestCities.java;3;13;JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message;Best Practices;JUnitAssertionsShouldIncludeMessage
+518;unit_tests;src/test/java/unit_tests/TestCity.java;3;7;AtLeastOneConstructor: Each class should declare at least one constructor;Code Style;AtLeastOneConstructor
+519;unit_tests;src/test/java/unit_tests/TestCity.java;3;7;CommentRequired: Class comments are required;Documentation;CommentRequired
+520;unit_tests;src/test/java/unit_tests/TestCity.java;3;9;CommentRequired: Field comments are required;Documentation;CommentRequired
+521;unit_tests;src/test/java/unit_tests/TestCity.java;3;9;"ImmutableField: Private field 'city' could be made final; it is only initialized in the declaration or constructor.";Design;ImmutableField
+522;unit_tests;src/test/java/unit_tests/TestCity.java;3;13;JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message;Best Practices;JUnitAssertionsShouldIncludeMessage
+523;unit_tests;src/test/java/unit_tests/TestCity.java;3;18;JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message;Best Practices;JUnitAssertionsShouldIncludeMessage
+524;unit_tests;src/test/java/unit_tests/TestCity.java;3;23;JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message;Best Practices;JUnitAssertionsShouldIncludeMessage
+525;unit_tests;src/test/java/unit_tests/TestCity.java;3;28;JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message;Best Practices;JUnitAssertionsShouldIncludeMessage
+526;unit_tests;src/test/java/unit_tests/TestLogin.java;3;9;AtLeastOneConstructor: Each class should declare at least one constructor;Code Style;AtLeastOneConstructor
+527;unit_tests;src/test/java/unit_tests/TestLogin.java;3;9;CommentRequired: Class comments are required;Documentation;CommentRequired
+528;unit_tests;src/test/java/unit_tests/TestLogin.java;3;11;CommentRequired: Field comments are required;Documentation;CommentRequired
+529;unit_tests;src/test/java/unit_tests/TestLogin.java;3;15;LocalVariableCouldBeFinal: Local variable 'user' could be declared final;Code Style;LocalVariableCouldBeFinal
+530;unit_tests;src/test/java/unit_tests/TestLogin.java;3;16;LocalVariableCouldBeFinal: Local variable 'isUserCorrect' could be declared final;Code Style;LocalVariableCouldBeFinal
+531;unit_tests;src/test/java/unit_tests/TestLogin.java;3;17;JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message;Best Practices;JUnitAssertionsShouldIncludeMessage
+532;unit_tests;src/test/java/unit_tests/TestLogin.java;3;17;SimplifiableTestAssertion: Assertion may be simplified using assertTrue;Best Practices;SimplifiableTestAssertion
+533;unit_tests;src/test/java/unit_tests/TestLogin.java;3;17;UseAssertTrueInsteadOfAssertEquals: Use assertTrue(x)/assertFalse(x) instead of assertEquals(true, x)/assertEquals(false, x) or assertEquals(Boolean.TRUE, x)/assertEquals(Boolean.FALSE, x).;Best Practices;UseAssertTrueInsteadOfAssertEquals
+534;unit_tests;src/test/java/unit_tests/TestLogin.java;3;22;LocalVariableCouldBeFinal: Local variable 'user' could be declared final;Code Style;LocalVariableCouldBeFinal
+535;unit_tests;src/test/java/unit_tests/TestLogin.java;3;23;LocalVariableCouldBeFinal: Local variable 'isUserCorrect' could be declared final;Code Style;LocalVariableCouldBeFinal
+536;unit_tests;src/test/java/unit_tests/TestLogin.java;3;24;JUnitAssertionsShouldIncludeMessage: JUnit assertions should include a message;Best Practices;JUnitAssertionsShouldIncludeMessage
+537;unit_tests;src/test/java/unit_tests/TestLogin.java;3;24;SimplifiableTestAssertion: Assertion may be simplified using assertFalse;Best Practices;SimplifiableTestAssertion
+538;unit_tests;src/test/java/unit_tests/TestLogin.java;3;24;UseAssertTrueInsteadOfAssertEquals: Use assertTrue(x)/assertFalse(x) instead of assertEquals(true, x)/assertEquals(false, x) or assertEquals(Boolean.TRUE, x)/assertEquals(Boolean.FALSE, x).;Best Practices;UseAssertTrueInsteadOfAssertEquals
